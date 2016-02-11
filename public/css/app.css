@@ -1,0 +1,111 @@
+.s-cont {
+    display: none;
+	position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: .8em;
+    background: #fff;
+    border: 1px solid #D6D1D1;
+    color: #222;
+    left: 0;
+    right: 0;
+    top: 54px;
+    border-top-width: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.33);
+    z-index: 5;
+    max-height: 350px;
+    overflow: auto;
+}
+.header-search-wrapper .s-cont{
+    top: 40px;
+    right: 0;
+}
+.s-cont li {
+    cursor: pointer;
+	text-align: left;
+	border-top: 1px solid #f5f5f5;
+}
+.s-cont li a {
+    display: block;
+    -webkit-transition: all .3s;
+    background: #fff;
+    color: #333;
+    padding: 10px;
+    font-size: 16px;
+}
+.s-cont li:hover a {
+    background: #EFEFEF;
+}
+.s-cont li.selected a {
+    background: #1fc055;
+    color: #fff;
+}
+.s-cont h4.title {
+    display: block;
+    background-color: #f5f5f5;
+    padding: 15px;
+    font-weight: normal;
+    text-align: left;
+    font-size: 12px;
+}
+.s-cont h4.title:not(:first-child) {
+    margin-top: 5px;
+}
+.mini-scroll::-webkit-scrollbar,
+.s-cont::-webkit-scrollbar {
+    width: 5px;
+}
+.mini-scroll::-webkit-scrollbar-track,
+.s-cont::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+.mini-scroll::-webkit-scrollbar-thumb,
+.s-cont::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #454545;
+}
+
+textarea.edit-comment-input {
+    display: none;
+}
+.processing {
+    background-color: #f5f5f5;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.suggest-me {
+    list-style: none;
+    position: absolute;
+    top: 56px;
+    z-index: 5;
+    left: 200px;
+    box-shadow: 0 17px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.suggest-me li {
+    padding: 12px 20px;
+    background: #fff;
+    color: #333333;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.suggest-me li:hover {
+    cursor: pointer;
+    background: #e4e4e0;
+    border-bottom-color: #e4e4e0;
+}
+.selected-suggest-me {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    color: #333333;
+    padding: 19px 10px;
+    cursor: pointer;
+}
+#query {
+    
+}

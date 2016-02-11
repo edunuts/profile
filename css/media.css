@@ -1,0 +1,10 @@
+@media only screen and (max-width: 500px) {
+    .discus-header-icon-box {
+    	position: absolute;
+    	right: 0;
+    }
+
+ .discus-logo img {
+    width: 119px;
+}
+

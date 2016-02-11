@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300);
+.mostrecent-img {
+
+}
+.mostrecent-img .mst-btn {
+	background: none;
+	border: none;
+	padding: 7px 20px 7px 39px;
+	background: #555;
+	color: #fff;
+	border-radius: 4px;
+	position: relative;
+}
+.mostrecent-img .mst-btn img {
+	height: 25px;
+	width: 20px;
+	position: absolute;
+	left: 5px;
+	top: 2px;
+}
+
+.mostrecent-img .mst-main-img {
+	height: 90px;
+	width: 90px;
+	border-radius: 50%;
+	margin-left: 3px;
+}
+.mostrecent-img .mst-name {
+	font-weight: 500;
+	text-align: left;
+	font-size: 14px;
+	padding: 3px 0px;
+	margin-left: -3px;
+}
+.rated-box {
+	height: 80px;
+	width: 80px;
+	background: #b8e986;
+	border-radius: 50%;
+	margin-top: 10px;
+}
+.rated-box .rated-h, .rated-p {
+	text-align: center;
+	padding: 0px;
+	margin: 0;
+}
+.rated-box .rated-h {
+	font-weight: bold;
+	padding-top: 18px;
+}
+.rbc {
+}
+.tell-us-your-exp {
+	font-size: 15px;
+	font-weight: 300;
+	padding-top: 0;
+	margin-top: -5px;
+}
+.star-box  img {
+	width: 35px;
+	float: left;
+	cursor: pointer;
+}
+.rp {
+	float: left;
+	font-weight: bold;
+	line-height: 48px;
+	margin-left: 10px;
+}
+.rating-text-area .r-text-area {
+	width: 100%;
+	height: 200px;
+	border-radius: 10px;
+	padding: 10px 15px;
+	border: none;
+	border: 1px solid #ccc;
+}
+.r-input-r, .r-input-l {
+	border: none;
+	border: 1px solid #ccc;
+	height: 35px;
+	border-radius: 5px;
+	margin-top: 5px;
+	padding: 0px 10px;
+}
+.r-input-l {
+	width: 59%;
+	float: left;
+	margin-right: 1%;
+}
+ .r-input-r {
+	width: 40%;
+	float: left;
+}
+.myrating-btn-box .mrb-l {
+	float: left;
+	font-size: 17px;
+	margin-top: 10px;
+	color: #F50E0E;
+	cursor: pointer;
+}
+
+.myrating-btn-box .mrb-r {
+	float: right;
+	background: #05C24F;
+	border-radius: 5px;
+	padding: 6px 10px;
+	font-size: 16px;
+}
+.myrating-btn-box .mrb-r a {
+	color: #fff;
+}
+.dp-none-box {
+	/*display: none;*/
+}
+.front-textarea {
+	width: 100%;
+	height: 150px;
+	border-radius: 10px;
+	padding: 10px 15px;
+}
+.por {
+	position: relative;
+}
+.comment-details {
+	/*position: absolute;*/
+	top: 12px;
+	height: 200px;
+}
+.review-content {
+	color: #696565 !important;
+	font-size: 14.3px;
+}
+.min-hight {
+	min-height: 400px;
+}
+.star-box .star{
+	color: #ccc;
+	float: left;
+	font-size: 30px;
+	color: red;
+	background: teal;
+}
+.font-md {
+	font-weight: 500;
+}
+
+.new-review-box .start-rating-content {
+	display: none;
+}
+
+.new-review-box .extended-review {
+	display: none;
+}
+
+.my-green-star {
+	background: url(../images/star-green-filled.png);
+	height: 35px;
+	width: 35px;
+	background-size: cover;	
+}

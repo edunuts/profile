@@ -1,0 +1,354 @@
+.icon.residential-apartments,
+.icon.boy-s-hostel,
+.icon.hostel, 
+.icon.staff-quarters{background-image: url(../images/facilities/home-50.png);}
+.icon.recreation,
+.icon.outdoor-games,
+.icon.football-ground {background-image: url(../images/facilities/football-50.png) !important;}
+.icon.transportation {background-image: url(../images/facilities/bus2-50.png) !important;}
+.icon.air-conditioners {background-image: url(../images/facilities/air_conditioner-50.png) !important;}
+.icon.bank {background-image: url(../images/facilities/banknotes-50.png) !important;}
+.icon.cafeteria{background-image: url(../images/facilities/cup-50.png) !important;}
+.icon.canteen{background-image: url(../images/facilities/food-50.png) !important;}
+.icon.dining-facility{background-image: url(../images/facilities/dining-facility.png) !important;}
+.icon.central-library,
+.icon.reading-room,
+.icon.library{background-image: url(../images/facilities/reading-50.png) !important;}
+.icon.common-room{background-image: url(../images/facilities/room-50.png) !important;}
+.icon.computer-center,
+.icon.computer-lab,
+.icon.it-lab,
+.icon.computer-literacy{background-image: url(../images/facilities/workstation-50.png) !important;}
+.icon.classrooms,
+.icon.chalkboards,
+.icon.display-boards{background-image: url(../images/facilities/class-50.png) !important;}
+.icon.elearning{background-image: url(../images/facilities/reading_ebook-50.png) !important;}
+.icon.guest-house{background-image: url(../images/facilities/bed-50.png) !important;}
+.icon.lcd-projector,
+.icon.projector{background-image: url(../images/facilities/video_projector-48.png) !important;}
+.icon.parking{background-image: url(../images/facilities/parking-50.png) !important;}
+.icon.suggestion-box{background-image: url(../images/facilities/box-50.png) !important;}
+.icon.utility-shop{background-image: url(../images/facilities/shopping_cart-50.png) !important;}
+.icon.washroom{background-image: url(../images/facilities/toilet_bowl-50.png) !important;}
+.icon.water-cooler{background-image: url(../images/facilities/fridge-50.png) !important;}
+.icon.wi-fi{background-image: url(../images/facilities/wi-fi-50.png) !important;}
+.icon.e-learning{background-image: url(../images/facilities/e-learning.png) !important;}
+.icon.e-library{background-image: url(../images/facilities/e-learning.png) !important;}
+.icon.atm{background-image: url(../images/facilities/atm.png) !important;}
+.icon.play-ground,
+.icon.sports-facilities,
+.icon.sports-ground{background-image: url(../images/facilities/sports-ground.png) !important;}
+.icon.badminton-courts,
+.icon.tennis-court{background-image: url(../images/facilities/tennis-court.png) !important;}
+.icon.lawn-tennis{background-image: url(../images/facilities/tennis.png) !important;}
+.icon.cricket-ground{background-image: url(../images/facilities/cricket.png) !important;}
+.icon.basketball-court{background-image: url(../images/facilities/basketball.png) !important;}
+.icon.volleyball-court{background-image: url(../images/facilities/volleyball.png) !important;}
+.icon.swimming-pool{background-image: url(../images/facilities/swimming.png) !important;}
+.icon.science-lab,
+.icon.laboratory,
+.icon.chemistry-lab,
+.icon.lab-facilities{background-image: url(../images/facilities/test_tube.png) !important;}
+.icon.tv-studio,
+.icon.television-studio,
+.icon.television{background-image: url(../images/facilities/tv.png) !important;}
+.icon.satellite-television-channels{background-image: url(../images/facilities/satellite.png) !important;}
+.icon.performing-spaces,
+.icon.auditorium{background-image: url(../images/facilities/audi.png) !important;}
+.icon.outdoor-theatre{background-image: url(../images/facilities/audi.png) !important;}
+.icon.drawing-studios,
+.icon.art-laboratories{background-image: url(../images/facilities/paint_palette.png) !important;}
+.icon.printer,
+.icon.print-lab{background-image: url(../images/facilities/print.png) !important;}
+.icon.distance-learning{background-image: url(../images/facilities/distance-learning.png) !important;}
+.icon.gym{background-image: url(../images/facilities/gym.png) !important;}
+.icon.student-lounges{background-image: url(../images/facilities/lounge.png) !important;}
+.icon.professional-communication-lab,
+.icon.music-room{background-image: url(../images/facilities/headphones.png) !important;}
+.icon.work-shop{background-image: url(../images/facilities/workshop.png) !important;}
+.icon.shopping-complex{background-image: url(../images/facilities/shopping.png) !important;}
+.icon.medical-facilities{background-image: url(../images/facilities/medical.png) !important;}
+.icon.billiards,
+.icon.billiards-room{background-image: url(../images/facilities/billiards.png) !important;}
+.icon.audio-equipments{background-image: url(../images/facilities/audio-equipments.png) !important;}
+.icon.campus-security,
+.icon.camera, 
+.icon.cameras{background-image: url(../images/facilities/camera.png) !important;}
+.icon.dental-opd,
+.icon.dental-checkup{background-image: url(../images/facilities/dental.png) !important;}
+.icon.hospital{background-image: url(../images/facilities/hospital.png) !important;}
+.icon.magazine{background-image: url(../images/facilities/newsletter.png) !important;}
+.icon.study-material,
+.icon.book-bank{background-image: url(../images/facilities/book-bank.png) !important;}
+.icon.washing-machines{background-image: url(../images/facilities/washing_machine.png) !important;}
+.icon.instrument-rooms,
+.icon.guitars{background-image: url(../images/facilities/guitar.png) !important;}
+.icon.drums{background-image: url(../images/facilities/drums.png) !important;}
+.icon.laptops{background-image: url(../images/facilities/laptop.png) !important;}
+.icon.women-cell,
+.icon.girl-s-hostel{background-image: url(../images/facilities/female.png) !important;}
+.icon.advance-training-kitchen,
+.icon.kitchen{background-image: url(../images/facilities/kitchen.png) !important;}
+.icon.national-cadet-corps{background-image: url(../images/facilities/medal.png) !important;}
+.icon.lift{background-image: url(../images/facilities/lift.png) !important;}
+.icon.spa{background-image: url(../images/facilities/spa.png) !important;}
+.icon.post-office{background-image: url(../images/facilities/post-office.png) !important;}
+.icon.transport{background-image: url(../images/facilities/transport.png) !important;}
+.icon.seminar-hall,
+.icon.conference{background-image: url(../images/facilities/conference.png) !important;}
+.icon.dance-studio,
+.icon.party-room{background-image: url(../images/facilities/party.png) !important;}
+.icon.experimental-animal-facility,
+.icon.animal-house{background-image: url(../images/facilities/animal_house.png) !important;}
+.icon.pantries{background-image: url(../images/facilities/pantry.png) !important;}
+.icon.indoor-games{background-image: url(../images/facilities/pawn.png) !important;}
+.icon.caroms{background-image: url(../images/facilities/carom.png) !important;}
+.icon.counselling,
+.icon.industry-interaction{background-image: url(../images/facilities/interaction.png) !important;}
+.icon.xerox,
+.icon.photocopying-assistance,
+.icon.photo-copier-machine{background-image: url(../images/facilities/photocopy.png) !important;}
+.icon.national-neuroimaging-facility{background-image: url(../images/facilities/brain.png) !important;}
+.icon.mess,
+.icon.restaurant-bar,
+.icon.hospitality-training-centre,
+.icon.training-restaurant{background-image: url(../images/facilities/restaurant_building.png) !important;}
+.icon.lecture-hall,
+.icon.lecture-theatres,
+.icon.conference-hall{background-image: url(../images/facilities/conference-hall.png) !important;}
+.icon.bakery-labs{background-image: url(../images/facilities/cake.png) !important;}
+.icon.amphitheatre,
+.icon.open-air-theatre{background-image: url(../images/facilities/arena.png) !important;}
+.icon.exhibition-gallery,
+.icon.art-studio,
+.icon.graphics-studio{background-image: url(../images/facilities/picture.png) !important;}
+.icon.pharmacy-museum{background-image: url(../images/facilities/pharmacy-studio.png) !important;}
+.icon.radio-lab,
+.icon.radio-studio{background-image: url(../images/facilities/radio-studio.png) !important;}
+.icon.laundry-services,
+.icon.laundry{background-image: url(../images/facilities/laundry.png) !important;}
+.icon.herbal-garden{background-image: url(../images/facilities/herbal.png) !important;}
+.icon.student-s-health-services,
+.icon.hospitality-training-centre,
+.icon.health-centre,
+.icon.dispensary,
+.icon.healthcare,
+.icon.medical-center{background-image: url(../images/facilities/clinic.png) !important;}
+.icon.meditation-center{background-image: url(../images/facilities/meditation.png) !important;}
+.icon.girl-s-common-room,
+.icon.girls-common-room{background-image: url(../images/facilities/girl.png) !important;}
+.icon.fire-fighting-system{background-image: url(../images/facilities/fire_extinguisher.png) !important;}
+.icon.darkroom{background-image: url(../images/facilities/darkroom.png) !important;}
+.icon.climatology-laboratory{background-image: url(../images/facilities/climate.png) !important;}
+.icon.architectural-studios{background-image: url(../images/facilities/compass.png) !important;}
+.icon.mathematics-lab{background-image: url(../images/facilities/maths.png) !important;}
+.icon.film-club{background-image: url(../images/facilities/film.png) !important;}
+.icon.environment-museum,
+.icon.eco-club{background-image: url(../images/facilities/eco.png) !important;}
+.icon.lighting-studio{background-image: url(../images/facilities/spotlight.png) !important;}
+.icon.art-craft-workshops{background-image: url(../images/facilities/origami.png) !important;}
+.icon.knowledge-resource-center,
+.icon.information-resource-center{background-image: url(../images/facilities/front_desk.png) !important;}
+.icon.housekeeping{background-image: url(../images/facilities/housekeeper.png) !important;}
+.icon.ambulance{background-image: url(../images/facilities/ambulance.png) !important;}
+.icon.uniform{background-image: url(../images/facilities/uniform.png) !important;}
+.icon.fruit-stalls{background-image: url(../images/facilities/fruit.png) !important;}
+.icon.tutorial-room,
+.icon.placement-cell{background-image: url(../images/facilities/training.png) !important;}
+.icon.police-station{background-image: url(../images/facilities/police_station.png) !important;}
+.icon.blood-bank{background-image: url(../images/facilities/water.png) !important;}
+.icon.automated-dna-sequence-analyzers{background-image: url(../images/facilities/dna.png) !important;}
+.icon.electrical-lab{background-image: url(../images/facilities/electrical.png) !important;}
+.icon.language-lab,
+.icon.language-centre{background-image: url(../images/facilities/talk.png) !important;}
+.icon.sound-studio{background-image: url(../images/facilities/sound.png) !important;}
+.icon.beach{background-image: url(../images/facilities/beach.png) !important;}
+.icon.online-facilities,
+.icon.internet-facility{background-image: url(../images/facilities/online.png) !important;}
+.icon.acting-studio{background-image: url(../images/facilities/acting.png) !important;}
+.icon.court-hall,
+.icon.e-moot-court-hall,
+.icon.moot-court{background-image: url(../images/facilities/court.png) !important;}
+.icon.photography-studio{background-image: url(../images/facilities/photography.png) !important;}
+.icon.music-studio{background-image: url(../images/facilities/music.png) !important;}
+.icon.physiotherapy{background-image: url(../images/facilities/physiotherapy.png) !important;}
+.icon.emergency{background-image: url(../images/facilities/siren.png) !important;}
+.icon.athletics{background-image: url(../images/facilities/athletics.png) !important;}
+.icon.spacious-corridors{background-image: url(../images/facilities/road.png) !important;}
+.icon.pharmacy{background-image: url(../images/facilities/pharmacist.png) !important;}
+.icon.mini-bank,
+.icon.banking-facilities{background-image: url(../images/facilities/bank.png) !important;}
+.icon.recorders{background-image: url(../images/facilities/mic.png) !important;}
+.icon.news-studio{background-image: url(../images/facilities/speaker.png) !important;}
+.icon.industrial-visits{background-image: url(../images/facilities/factory.png) !important;}
+.icon.production-house{background-image: url(../images/facilities/movie_projector.png) !important;}
+.icon.training-banquet-hall{background-image: url(../images/facilities/waiter.png) !important;}
+
+
+
+.icon.report-grey {background-image: url(../images/report-50.png);}
+.icon.like-blue {background-image: url(../images/like-50.png);}
+.icon.like-white {background-image: url(../images/like-white-50.png);}
+.icon.like-grey {background-image: url(../images/like-grey-50.png);}
+.icon.unlike-blue {background-image: url(../images/unlike-50.png);}
+.icon.wishlist-blue {background-image: url(../images/wishlist-50.png);}
+.icon.wishlist-white {background-image: url(../images/wishlist-white-50.png);}
+.icon.wishlist-grey {background-image: url(../images/wishlist-grey-50.png);}
+.icon.rating-white {background-image: url(../images/star-white-50.png);}
+.icon.star-blue {background-image: url(../images/star-50.png);}
+.icon.star-black {background-image: url(../images/star-black.png);}
+.icon.star-green-filled {background-image: url(../images/star-green-filled.png);}
+.icon.star-yellow-filled {background-image: url(../images/star-yellow-filled.png);}
+.icon.star-red-filled {background-image: url(../images/star-red-filled.png);}
+.icon.star-green-light-filled {background-image: url(../images/star-green-light-filled.png);}
+.icon.star-red-dark-filled {background-image: url(../images/star-red-dark-filled.png);}
+.icon.reviews-grey {background-image: url(../images/review-grey-50.png);}
+.icon.reviews-blue {background-image: url(../images/review-50.png);}
+.icon.reviews-white {background-image: url(../images/review-white-50.png);}
+.icon.time-grey {background-image: url(../images/time-grey.png);}
+.icon.photos-blue {background-image: url(../images/photo-50.png);}
+.icon.photos-grey {background-image: url(../images/photo-grey-50.png);}
+.icon.courses-blue {background-image: url(../images/courses-50.png);}
+.icon.courses-grey {background-image: url(../images/courses-grey.png);}
+.icon.university-white {background-image: url(../images/university-white-50.png);}
+.icon.university-blue {background-image: url(../images/university-blue-50.png);}
+.icon.certificate {background-image: url(../images/certificate-white-50.png);}
+.icon.medal {background-image: url(../images/medal-white-50.png);}
+.icon.delhi-metro {background-image: url(../images/delhi-metro.png);}
+.icon.facilities-blue {background-image: url(../images/facilities-blue.png);}
+.icon.calendar {background-image: url(../images/calendar.png);}
+.icon.calendar-blue {background-image: url(../images/calendar-blue.png);}
+.icon.clock {background-image: url(../images/clock.png);}
+.icon.classroom {background-image: url(../images/classroom.png);}
+.icon.food-blue {background-image: url(../images/food-blue-50.png);}
+.icon.about-blue {background-image: url(../images/about-50.png);}
+.icon.why-blue {background-image: url(../images/why-blue-50.png);}
+.icon.trophy-blue {background-image: url(../images/trophy-50.png);}
+.icon.founder {background-image: url(../images/founder.png);}
+.icon.university {background-image: url(../images/university-50.png);}
+.icon.money {background-image: url(../images/money.png);}
+.icon.briefcase {background-image: url(../images/briefcase-50.png);}
+.icon.contact-card {background-image: url(../images/contact-card.png);}
+.icon.phone {background-image: url(../images/phone-50.png);}
+.icon.email {background-image: url(../images/email-50.png);}
+.icon.submit-btn {background-image: url(../images/submit-btn.png);}
+.icon.close-btn{background-image: url(../images/close-btn.png);}
+.icon.phone-green{background-image: url(../images/phone-green.png);}
+.icon.news-blue{background-image: url(../images/news-blue.png);}
+.icon.handshake{background-image: url(../images/handshake-100.png);}
+.icon.invite{background-image: url(../images/talk-48.png);}
+.icon.password{background-image: url(../images/password-50.png);}
+.icon.ok-green{background-image: url(../images/ok-green-50.png);}
+.icon.cancel-red{background-image: url(../images/cancel-red-50.png);}
+.icon.cancel-blue{background-image: url(../images/cancel-blue-50.png);}
+.icon.lock-yellow{background-image: url(../images/lock_filled_yellow.png);}
+.icon.unlock-green{background-image: url(../images/unlock_filled_green.png);}
+.icon.eye-blue{background-image: url(../images/eye-blue.png);}
+.icon.edit-blue{background-image: url(../images/edit-blue.png);}
+.icon.trash-blue{background-image: url(../images/trash-blue.png);}
+
+.icon.hotspot-animal {background-image: url(../images/hotspots/icons/animal.png);}
+.icon.hotspot-banquet {background-image: url(../images/hotspots/icons/banquet.png);}
+.icon.hotspot-bar {background-image: url(../images/hotspots/icons/bar.png);}
+.icon.hotspot-beach {background-image: url(../images/hotspots/icons/beach.png);}
+.icon.hotspot-business {background-image: url(../images/hotspots/icons/business.png);}
+.icon.hotspot-clothing {background-image: url(../images/hotspots/icons/clothing.png);}
+.icon.hotspot-coffee {background-image: url(../images/hotspots/icons/coffee.png);}
+.icon.hotspot-electronics {background-image: url(../images/hotspots/icons/electronics.png);}
+.icon.hotspot-exhibition {background-image: url(../images/hotspots/icons/exhibition.png);}
+.icon.hotspot-food {background-image: url(../images/hotspots/icons/food.png);}
+.icon.hotspot-gym {background-image: url(../images/hotspots/icons/gym.png);}
+.icon.hotspot-hotel {background-image: url(../images/hotspots/icons/hotel.png);}
+.icon.hotspot-ice-cream {background-image: url(../images/hotspots/icons/ice-cream.png);}
+.icon.hotspot-lake {background-image: url(../images/hotspots/icons/lake.png);}
+.icon.hotspot-lounge {background-image: url(../images/hotspots/icons/lounge.png);}
+.icon.hotspot-mall {background-image: url(../images/hotspots/icons/mall.png);}
+.icon.hotspot-market {background-image: url(../images/hotspots/icons/market.png);}
+.icon.hotspot-mart {background-image: url(../images/hotspots/icons/mart.png);}
+.icon.hotspot-movies {background-image: url(../images/hotspots/icons/movies.png);}
+.icon.hotspot-museum {background-image: url(../images/hotspots/icons/museum.png);}
+.icon.hotspot-national-heritage {background-image: url(../images/hotspots/icons/national-heritage.png);}
+.icon.hotspot-park {background-image: url(../images/hotspots/icons/park.png);}
+.icon.hotspot-resort {background-image: url(../images/hotspots/icons/resort.png);}
+.icon.hotspot-skydiving {background-image: url(../images/hotspots/icons/skydiving.png);}
+.icon.hotspot-sports {background-image: url(../images/hotspots/icons/sports.png);}
+.icon.hotspot-theatre {background-image: url(../images/hotspots/icons/theatre.png);}
+.icon.hotspot-water-park {background-image: url(../images/hotspots/icons/water-park.png);}
+
+
+.icon.domino-s {background-image: url(../images/hotspots/dominos.png);}
+.icon.subway {background-image: url(../images/hotspots/subway.png);}
+.icon.cafe-coffee-day {background-image: url(../images/hotspots/ccd.png);}
+.icon.pizza-hut {background-image: url(../images/hotspots/pizza-hut.png);}
+.icon.mcdonald-s {background-image: url(../images/hotspots/mcdonalds.png);}
+.icon.barista-coffee {background-image: url(../images/hotspots/barista.png);}
+.icon.starbucks {background-image: url(../images/hotspots/starbucks.png);}
+.icon.kfc {background-image: url(../images/hotspots/kfc.png);}
+.icon.berco-s {background-image: url(../images/hotspots/bercos.jpg);}
+.icon.croma-retail {background-image: url(../images/hotspots/croma.jpg);}
+.icon.big-cinemas {background-image: url(../images/hotspots/big-cinemas.jpg);}
+.icon.fashion-big-bazaar {background-image: url(../images/hotspots/fbb.jpg);}
+.icon.pvr-cinemas {background-image: url(../images/hotspots/pvr.jpg);}
+.icon.sagar-ratna {background-image: url(../images/hotspots/sagar-ratna.jpg);}
+.icon.haldiram-s {background-image: url(../images/hotspots/haldirams.jpg);}
+.icon.karim-s {background-image: url(../images/hotspots/karims.jpg);}
+.icon.lavazza {background-image: url(../images/hotspots/lavazza.jpg);}
+.icon.indus-flavour {background-image: url(../images/hotspots/indus-flavour.jpg);}
+
+.icon.facebook-grey {background-image: url(../images/facebook-grey.png);}
+.icon.twitter-grey {background-image: url(../images/twitter-grey.png);}
+.icon.instagram-grey {background-image: url(../images/instagram-grey.png);}
+.icon.google-grey {background-image: url(../images/google-grey.png);}
+.icon.linkedin-grey {background-image: url(../images/linkedin-grey.png);}
+.icon.pinterest-grey {background-image: url(../images/pinterest-grey.png);}
+.icon.twitter{
+	background-image: url(../images/twitter.png);
+}
+.icon.location{
+	background-image: url(../images/location_filled.png);
+}
+
+.icon.architecture-colored {background-image: url(../images/interests/architecture.png);}
+.icon.business-colored {background-image: url(../images/interests/business.png);}
+.icon.computers-colored {background-image: url(../images/interests/computers.png);}
+.icon.entertainment-colored {background-image: url(../images/interests/entertainment.png);}
+.icon.food-colored {background-image: url(../images/interests/food.png);}
+.icon.journalism-colored {background-image: url(../images/interests/journalism.png);}
+.icon.music-colored {background-image: url(../images/interests/music.png);}
+.icon.photography-colored {background-image: url(../images/interests/photography.png);}
+.icon.fashion-designing-colored {background-image: url(../images/interests/fashion-designing.png);}
+.icon.social-work-colored {background-image: url(../images/interests/social-work.png);}
+.icon.education-colored {background-image: url(../images/interests/education.png);}
+.icon.writing-colored {background-image: url(../images/interests/writing.png);}
+.icon.advertising-colored {background-image: url(../images/interests/advertising.png);}
+.icon.dance-colored {background-image: url(../images/interests/dance.png);}
+.icon.painting-colored {background-image: url(../images/interests/painting.png);}
+.icon.politics-colored {background-image: url(../images/interests/politics.png);}
+.icon.tourism-colored {background-image: url(../images/interests/tourism.png);}
+.icon.medical-colored {background-image: url(../images/interests/medical.png);}
+.icon.sports-colored {background-image: url(../images/interests/sports.png);}
+.icon.science-colored {background-image: url(../images/interests/science.png);}
+.icon.forensic-colored {background-image: url(../images/interests/forensic.png);}
+.icon.law-colored {background-image: url(../images/interests/law.png);}
+.icon.electronics-colored {background-image: url(../images/interests/electronics.png);}
+.icon.bio-tech-colored {background-image: url(../images/interests/bio-tech.png);}
+.icon.environment-colored {background-image: url(../images/interests/environment.png);}
+.icon.agriculture-colored {background-image: url(../images/interests/agriculture.png);}
+.icon.military-colored {background-image: url(../images/interests/military.png);}
+.icon.animation-colored {background-image: url(../images/interests/animation.png);}
+.icon.web-design-colored {background-image: url(../images/interests/web-design.png);}
+.icon.programming-colored {background-image: url(../images/interests/programming.png);}
+.icon.hacking-colored {background-image: url(../images/interests/hacking.png);}
+.icon.mobile-apps-colored {background-image: url(../images/interests/mobile-apps.png);}
+
+.icon.email-gmail{background-image: url(../images/email-providers/gmail.png);}
+.icon.email-aol{background-image: url(../images/email-providers/aol.png);}
+.icon.email-facebook{background-image: url(../images/email-providers/facebook.png);}
+.icon.email-outlook,
+.icon.email-live,
+.icon.email-hotmail{background-image: url(../images/email-providers/outlook.png);}
+.icon.email-yahoo{background-image: url(../images/email-providers/yahoo.png);}
+
+.icon.contact-phone{background-image: url(../images/contact/phone.png);}
+.icon.contact-email{background-image: url(../images/contact/email.png);}
+.icon.contact-location{background-image: url(../images/contact/location.png);}

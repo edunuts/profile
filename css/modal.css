@@ -1,0 +1,259 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300);
+.page-container > * {
+  width: 940px;
+  padding: 20px;
+  margin: 0 auto;
+  color: white;
+}
+
+/* Modal window sample styles */
+/* Vertical centering trick http://css-tricks.com/centering-in-the-unknown/ */
+.modal::before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.target {
+  display: block;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  pointer-events: none;
+ }
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  text-align: center;
+  display: none;
+  /* Fallback for legacy browsers */
+}
+.modal > .content {
+   text-align: left;
+   display: inline-block;
+  /*background: rgba(255, 255, 255, 0.99);*/
+  background: #fff;
+   box-sizing: border-box;
+   position: relative;
+   width: 634px;
+   padding: 20px;
+   top: -90px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+  border-radius: 5px;
+
+ }
+
+ .modal > .content .close-btn {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    width: 15px;
+    height: 15px;
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+ }
+
+
+ /* Behaviour on legacy browsers */
+.target:target + .modal {
+    display: block;
+}
+
+/* Fallback for IE8 */
+.modal.is-expanded {
+   display: block;
+}
+.modal.is-expanded > .content {
+  top: 50%;
+  margin-top: -45px;
+}
+
+/* Making main page blurred when modal window open */
+:root .target:target ~ .page-container {
+   filter: blur(5px);
+  -webkit-filter: blur(5px);
+ 
+}
+:root span[id="start"]:target ~ .page-container {
+ filter: none;
+ -webkit-filter: none;
+}
+
+/* Behavior on modern browsers */
+:root .modal {
+  display: block;
+  background-color: transparent;
+  /*transition: transform 0.3s cubic-bezier(0.5, -0.5, 0.5, 1.5);*/
+  /*transition: transform 0.2s cubic-bezier(0.88, 0.33, 0.76, 0.9);*/
+  transition: transform 0.2s cubic-bezier(0.7, 0.68, 0.7, 0.65);
+  transform-origin: center center;
+  transform: scale(0, 0);
+}
+:root .modal > .content {
+}
+:root .target:target + .modal {
+  transform: scale(1, 1);
+}
+
+/*modal inner settigns*/
+.my-col-6 {
+  width: 50%;
+  float: left;
+  position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+.font-robo {
+  font-family: Roboto;
+  font-weight: 100;
+}
+.font-raleway {
+  font-family: Raleway;
+}
+.decore {
+  font-size: 30px;
+}
+
+.myinput {
+  height: 40px;
+  width: 265px;
+  outline: none;
+  background: none;
+  border: none;
+  border: 1px solid #aaa;
+  padding-left: 10px;
+}
+.myinput:focus {
+  border: 1px solid #716D6D;
+}
+
+.br {
+  border-right: 1px solid #aaa;
+}
+
+.google-img, .facebook-img  {
+  background-size: cover;
+  height: 38px;
+  width: 38px;
+  /*background-size: 100px;*/
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.google-img {
+  background-image: url(../img/social-google.png);
+  left: 6px;
+  top: 1px
+}
+.facebook-img {
+  background-image: url(../img/social-facebook.png);
+  height: 35px;
+  width: 35px;
+}
+.my-btn-g {
+  padding: 11px 47px;
+  color: #fff !important;
+ background: #E02F2F;
+  display: inline-block;
+  border-radius: 3px;
+  position: relative;
+}
+.my-btn-g, .my-btn-f, .small-btn {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.my-btn-f {
+  color: #fff !important;
+   background: #3B5998;
+  display: inline-block;
+  border-radius: 3px;
+  position: relative;
+ padding: 11px 38px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.small-btn {
+   padding: 10px 15px;
+  color: #fff !important;
+  outline: none;
+  border: none;
+  display: inline-block;
+  background: #333;
+  border-radius: 3px;
+}
+.small-btn:hover {
+background: #222; 
+}
+
+.login-header {
+font-size: 34px;
+text-align: center;
+letter-spacing: 1px;
+font-family: Roboto;
+font-weight: 300;
+
+}
+.login-content {
+text-align: center;
+font-family: Raleway;
+font-size: 15px;
+letter-spacing: 1px;
+}
+.text-right {
+  text-align: right;
+}
+.big-f {
+  font-size: 30px;
+}
+/*
+.btn-box .google-img {
+  left: 22px;
+   top: 123px;
+   position: absolute;
+}*/
+.btn-box .facebook-img {
+  top: 2px;
+  right: 0;
+  position: absolute;
+}
+.btn-box .my-btn-g {
+      padding: 11px 46px;
+      position: relative;
+}
+
+.fz-18 {
+  font-size: 17px;
+}
+
+/*forgot-password-styling-start-from-here*/
+.forgot-password {
+  width: 530px;
+  margin: 0 auto; 
+}
+.forgot-password .myinput {
+  width: 353px;
+}
+.small-input {
+    width: 197px;
+}
+.signup-small-input {
+  width: 183px;
+
+}

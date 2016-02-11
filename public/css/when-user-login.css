@@ -1,0 +1,195 @@
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+
+.clear:after {
+    clear: both;
+}
+
+/*Scroll bar modifie*/
+.notifications::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+.notifications::-webkit-scrollbar 
+{
+	width: 8px;
+	background-color: #F5F5F5;
+}
+.notifications::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #A8A8A8;
+}
+/*Scroll bar modifie*/
+.noti-box {
+	position: relative;
+}
+.noti-content {
+	height: 420px;
+	width: 300px;
+	background: #fff;
+	display: inline-block;
+	position: absolute;
+	right: 56px;
+	top: 40px;
+	z-index: 100;
+	/*box-shadow: 0 5px 20px rgba(0,0,0,0.5);*/
+	box-shadow: 0 5px 15px rgb(216, 216, 216);
+	border: 1px solid #ddd;
+	overflow: hidden;
+	display: none;
+}
+
+.title-head {
+	font-weight: 400;
+	padding: 20px 10px 10px;
+}
+
+
+.notifications {
+	height: 83%;
+	overflow: auto;
+	margin: 10px 0;
+	margin-right: 5px;
+}
+
+.noti-item {
+	border-bottom: 1px solid #f2f2f2;
+	padding: 15px 10px;
+	display: block;
+	font-size: 15px;
+}
+.noti-item:hover {
+	background: #fff;
+	background: #FBFBFB;
+}
+
+.profile-submenu {
+	display: none;
+	list-style: none;
+}
+.active .profile-submenu {
+	/*display: block;*/
+}
+
+.link-header {
+	padding: 0 10px;
+	border: 1px solid transparent;
+}
+.red {
+	background: #fff;
+	box-shadow: 0 10px 10px rgb(216, 216, 216);
+	border: 1px solid #ddd;
+	border-bottom: none;
+	border-radius: 4px 4px 0 0;
+}
+.reds:after {
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 273px;
+	display: inline-block;
+	background: #ddd;
+	z-index: 200;
+	right: 25px;
+	top: 46px;
+}
+.red:after {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	height: 10px;
+	bottom: 2px;
+	width: 100%;
+	right: 0;
+	background: #fff;
+	z-index: 200;
+}
+.bell-icon {
+	/*height: 40px;*/
+	width: 23px;
+	margin-top: 6px;
+}
+/*.account .profile-menu li a:after {
+	content: " ";
+    background: url(../images/my-caret-right.png) no-repeat;
+    height: 100px;
+    width: 100px;
+    background-size: 18px 18px;
+    position: absolute;
+    right: -64px;
+}*/
+.d-none {
+	display: none;
+}
+.account .profile-menu li.active > a:after {
+    content: " ";
+    background: url(../images/my-caret-down.png) no-repeat;
+    height: 100px;
+    width: 100px;
+    background-size: 18px 15px;
+    position: absolute;
+    right: -64px;
+}
+li.active > a {
+	font-weight: bolder;
+	font-size: 17px;
+}
+.setting-icon {
+	height: auto;
+	width: 22px;
+	margin-top: 6px;
+	/*margin-right: -24px;*/
+}
+header .link-header {
+	margin: 0 4px;
+}
+.setting-box {
+height: 420px;
+	width: 300px;
+	background: #fff;
+	display: inline-block;
+	position: absolute;
+	right: 4px;
+	top: 40px;
+	z-index: 100;
+	box-shadow: 0 5px 15px rgb(216, 216, 216);
+	border: 1px solid #ddd;
+	overflow: hidden;
+	display: none;
+
+}
+
+.red-setting {
+	background: #fff;
+	box-shadow: 0 10px 10px rgb(216, 216, 216);
+	border: 1px solid #ddd;
+	border-bottom: none;
+	border-radius: 4px 4px 0 0;
+}
+
+.red-setting:after {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	height: 10px;
+	bottom: 2px;
+	width: 100%;
+	right: 0;
+	background: #fff;
+	z-index: 200;
+}
+.setti {
+	border: 1px solid red;
+}
+.blue-box {
+	padding: 5px;
+	background: #F5F6F8;
+	background: #F5F5F5;
+}
