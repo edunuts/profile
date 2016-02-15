@@ -5,36 +5,23 @@
 .link-header {
 	font-size: 16px;
 }
-.link-header {
-	margin: 0 2px !important;
+.modal-overlay {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+  background: rgba(0, 0, 0, 0.3);
 }
 
 </style>
 <input type="hidden" id="display_picture" value="">
-<header>
 	<div class="wrapper">
-		<div class="row">
-			<div class="col-3">
-				<a href="http://www.edunuts.com" class="logo logo-header" title=""></a>
-			</div>
-			<div class="col-6">
-				<form class="header-search-wrapper" action="http://www.edunuts.com/delhi" method="get" id="main-search-form">
-					<input type="hidden" id="where">
-					<select name="location" id="location" style="display: none">
-						<option value="">India</option>
-					</select>
-					<input type="text" id="query" class="header-form-input" autofocus placeholder="Search for colleges, courses or areas" name="q" autocomplete="off" value="" />
-				<ul class="s-cont" id="suggestion-container"></ul>
-				<button type="submit" class="header-search-btn icon search"></button>
-			</form>
-		</div>
-		<div class="col-7 float-right">
-			<a href="#open-modal-1" class="link-header">signUp</a>
-			<a href="#open-modal-2" class="link-header">Login / </a>
-		</div>
+		<?php include "includes/simple-search.php" ?>
 	</div>
-</div>
-</header>
 <form class="pop-box-overlay hidden" style="display:none" id="report-institute" action="/institute/report" method="post">
 <div class="pop-box animated bounceInDown">
 	<a class="icon cancel-red pop-close"></a>
@@ -1184,6 +1171,17 @@
 			$(this).toggleClass('my-green-star');
 		})
 
+var overlay = $('<div>',{class:'modal-overlay'});
+$('a[href*=modal]').click(function() {
+	$('body').append(overlay);
+});
+
+
+$(function() {
+	$('.close-btn').on('click', function(e) {
+		overlay.remove();
+	})
+})
 
 	</script>
 </body>

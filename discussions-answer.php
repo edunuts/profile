@@ -26,7 +26,7 @@
 						</div>
 						<div class="col-md-10 clearfix">
 							<div class="pull-left">
-								<h3><a href="discussions-answer.php" class="what-to-do">Can i study B. Tech (CSE) in Germany ?</a></h3>
+								<h3 class="what-to-do"><a href="discussions-answer.php" >Can i study B. Tech (CSE) in Germany ?</a></h3>
 								<p>I have scored in 10th:89% 12th:60% and CMAT:72 Percentle. <br><strong>21 hrs ago</strong></p>
 								<button class="btn btn-blue ck-open"><span class="fa fa-pencil"></span> Write Answer</button>
 								<button style="margin-bottom:20px" class="btn"><span class="fa fa-refresh"></span> Re-Ask</button>
@@ -83,7 +83,7 @@
 				<!-- clone-from-here -->
 					<div class="ask-q-box border-bottom clearfix">
 						<div class="col-md-2">
-							<div class="left-digit" style="margin-top: 12%;">
+							<div class="left-digit">
 								<span class="angle-up"><img src="img/angle-up.png" alt=""></span>
 								<h1 class="text-thin digit">24</h1>
 								<span class="angle-down"><img src="img/angle-down.png" alt=""></span>
@@ -110,7 +110,7 @@
 				<!-- clone-from-here -->
 					<div class="ask-q-box border-bottom clearfix">
 						<div class="col-md-2">
-							<div class="left-digit" style="margin-top: 12%;">
+							<div class="left-digit">
 								<span class="angle-up"><img src="img/angle-up.png" alt=""></span>
 								<h1 class="text-thin digit">24</h1>
 								<span class="angle-down"><img src="img/angle-down.png" alt=""></span>
@@ -135,7 +135,7 @@
 				<!-- clone-from-here -->
 					<div class="ask-q-box border-bottom clearfix">
 						<div class="col-md-2">
-							<div class="left-digit" style="margin-top: 12%;">
+							<div class="left-digit">
 								<span class="angle-up"><img src="img/angle-up.png" alt=""></span>
 								<h1 class="text-thin digit">24</h1>
 								<span class="angle-down"><img src="img/angle-down.png" alt=""></span>

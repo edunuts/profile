@@ -29,6 +29,9 @@
         <link rel="stylesheet" href="public/css/modal.css">
         <link rel="stylesheet" href="public/css/extra.css">
 <link rel="stylesheet" href="public/css/main-profile.css">
+     
+     <script>
         
+     </script>   
     </head>
     <body>

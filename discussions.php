@@ -48,39 +48,41 @@
 						</div>
 						<div class="col-md-2"></div>
 						<div class="col-md-10">
-							<div class="ck-editor-box">
-								<div class="ck-header">
-									<div class="col-md-1">
-										<img class="ck-img" src="img/Messy-curly-hairstyles-men.jpg" alt="">
+							<div id="full-ck">
+								<div class="ck-editor-box" >
+									<div class="ck-header">
+										<div class="col-md-1">
+											<img class="ck-img" src="img/Messy-curly-hairstyles-men.jpg" alt="">
+										</div>
+										<div class="col-md-10">
+											<h4 class="ck-title">Sandeep Singh</h4>
+											<h5>Add Bio . Go</h5>
+										</div>
+										<div class="col-md-1">
+											<span class="fa expand fa-expand" onclick="fullscreen()"></span>
+										</div>
 									</div>
-									<div class="col-md-10">
-										<h4 class="ck-title">Sandeep Singh</h4>
-										<h5>Add Bio . Go</h5>
+									<div class="ck-nav clearfix">
+										<ul class="float-left ">
+											<li><span class="fa fa-bold"></span>&nbsp;</li>
+											<li><span class="fa fa-italic"></span>&nbsp;</li>
+											<li><span class="fa fa-strikethrough"></span></li>
+										</ul>
+								
+										<ul class="pull-right ck-right">
+											<li><span class="fa fa-link">&nbsp;</span></li>
+											<!-- <li><span class="fa fa-search">&nbsp;</span></li> -->
+										</ul>
 									</div>
-									<div class="col-md-1">
-										<span class="fa expand fa-expand"></span>
-									</div>
-								</div>
-								<div class="ck-nav clearfix">
-									<ul class="float-left ">
-										<li><span class="fa fa-bold"></span>&nbsp;</li>
-										<li><span class="fa fa-italic"></span>&nbsp;</li>
-										<li><span class="fa fa-strikethrough"></span></li>
-									</ul>
-
-									<ul class="pull-right ck-right">
-										<li><span class="fa fa-link">&nbsp;</span></li>
-										<!-- <li><span class="fa fa-search">&nbsp;</span></li> -->
-									</ul>
-								</div>
-								<textarea class="ck-text-area" placeholder="Write Your text here"></textarea>
-								<div class="ck-footer">
-									<div class="float-left">
-										<button class="btn bg-blue">Submit</button>
-										<button class="btn">Save Draft</button>
-									</div>
-									<div class="pull-right">
-									
+									<textarea class="ck-text-area" placeholder="Write Your text here"></textarea>
+									<div class="ck-footer">
+										<div class="float-left">
+											<button class="btn bg-blue">Submit</button>
+											<button class="btn">Save Draft</button>
+										</div>
+										<div class="pull-right">
+										
+										</div>
 									</div>
 								</div>
 							</div>
@@ -160,5 +162,10 @@
 	$('.ck-open').click(function() {
 		$(this).parents('.ask-q-box').find('.ck-editor-box').slideToggle();
 	});
+$('#full-ck').click(function() {
+	$(this).addClass('full-screen-ck');
+})
+
+
 </script>
 </html>

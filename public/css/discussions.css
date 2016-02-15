@@ -71,7 +71,7 @@ padding-top: 20px;
 margin: 0;
 }
 .left-digit {
-	margin-top: 23%;
+	margin-top: 17%;
 }
 
 .left-digit .digit {
@@ -85,7 +85,12 @@ margin: 0;
 }
 .what-to-do {
 	font-size: 20px;
+	margin-top: 15px;
+	/*padding-top: 0;*/
+}
+.what-to-do a{
 	color: #333 !important;
+
 }
 /*ck start from here*/
 .ck-editor-box {
@@ -190,4 +195,11 @@ margin: 0;
 }
 .fw-400 {
 	font-weight: 400;
+}
+.full-screen-ck {
+	height: 100%;
+	width: 80%;
+}
+.full-screen-ck textarea {
+	height: 400px;
 }

@@ -1,27 +1,7 @@
 <!DOCTYPE html>
 <?php include "includes/header.php" ?>
-<link rel="stylesheet" href="css/modal.css">
-	<div class="header">
-		<div class="container">
-			<div class="logo"></div>
-			<div class="search-box">
-				<div class="">
-					<input class="mysearch" type="text" placeholder="Search here">
-					<select class="myselect" name="" id="">
-						<option value="">Delhi NCR</option>
-						<option value="">Delhi NCR</option>
-						<option value="">Delhi NCR</option>
-						<option value="">Delhi NCR</option>
-					</select>
-					<div class="serch-icon"></div>
-				</div>
-			</div>	
-			<ul class="mylogin-btn">
-				<li ><a href="#open-modal-1" >SignUp</a></li>
-				<li ><a href="#open-modal-2" id="dark">Login / </a></li>
-			</ul>
-		</div>
-	</div>
+
+	<?php include "includes/simple-search.php" ?>
 	<div class="container">
 		<ul class="breadcrumbs">
 		 	<li><a href="#">Home</a><i class="fa fa-angle-right"></i></li>
@@ -38,8 +18,12 @@
 					</div>
 					<div class="user-name-box" style="margin-top: 17px">	
 						<h2 class="username-title">Sandeep Singh</h2>
-						<p class="pr color-default">Working @ Edunuts</p>
-						<p class="pr color-default">edunuts.com/sandeep </p>
+						<p class="pr color-default edit">Working @ Edunuts
+							<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a>
+						</p>
+						<p class="pr color-default edit">edunuts.com/sandeep 
+							<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a>
+						</p>
 						<button class="btn btn-newbe color-black fz-16 ">
 						<img class="newbe-img" src="img/btn-icon.png" alt="">Newbe</button>
 					</div>
@@ -77,9 +61,15 @@
 			</div>
 			<!-- this is box re-->
 			<div class="col-md-9 items" id="overview">
-				<p class="fz-16 color-default">Studied at Kirorimal College</p>
-				<p class="fz-16 color-default">Currently lives in New Delhi, India</p>
-				<p class="fz-16 color-default"><b>Skills</b></p>
+				<p class="fz-16 color-default edit">Studied at Kirorimal College
+					<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a>
+				</p>
+				<p class="fz-16 color-default edit">Currently lives in New Delhi, India
+					<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a>
+				</p>
+				<p class="fz-16 color-default edit"><b>Skills</b> <a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a></p>
+				
+				<!-- <h1>hello &#9998;</h1> -->
 				<hr class="mt-none">
 				<div class="btn-box">
 					<button class="btn color-green">PHP & MySQL</button>
@@ -90,10 +80,16 @@
 				<br>	
 				<h4 class="exp ">Experience</h4>
 				<hr class="mt-none">
-				<h4 class="username-title">Software Engineer @ Guru iNfoways Pvt Ltd. ( 2 Yrs )</h4>
-				<p class="color-default">
-					Recruitment Services: Have helped companies across domains ranging from BFSI, manufacturing, ad agencies, education, healthcare, diversiﬁed groups to real estate developers. We help companies to recruit across functional areas and seniority levels.
-				</p>	
+				<h4 class="username-title edit">Software Engineer @ Guru iNfoways Pvt Ltd. ( 2 Yrs )
+					<small><a href="" class="hover-edit"><i class="fa fa-pencil"></i></a></small>
+				</h4>
+				<div class="">
+					<p class="color-default edit">
+						Recruitment Services: Have helped companies across domains ranging from BFSI, manufacturing, ad agencies, education, healthcare, diversiﬁed groups to real estate developers. We help companies to recruit across functional areas and seniority levels.
+						<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a>
+					</p>
+				</div>
+				
 				<hr>
 			</div>
 			<!-- this is box -->
@@ -156,6 +152,14 @@
 </body>
 <script src="js/jquery.min.js"></script>
 <script src="js/profile.js"></script>
+<script src="js/jquery.editable.js"></script>
+<script>
+
+	var option = {trigger : $(".edit-btn"), action : "click"};
+	$("#edit").editable(option, function(e){
+ 
+});
+</script>
 <?php include "includes/signin-modal.php" ?>
 <?php include "includes/signup-modal.php" ?>
 <?php include "includes/forgot-modal.php" ?>
