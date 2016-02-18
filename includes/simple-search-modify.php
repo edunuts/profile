@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="css/modal.css">
 <style>
 	
 .header {
@@ -97,7 +96,7 @@
 				</div>
 			</div>	
 			<ul class="mylogin-btn">
-				<li ><a href="#open-modal-1">SignUp</a></li>
+				<li ><a href="#">SignUp</a></li>
 				<li ><a href="#open-modal-2" id="dark">Login /  </a></li>
 			</ul>
 		</div>

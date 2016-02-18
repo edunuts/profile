@@ -18,14 +18,15 @@
 					</div>
 					<div class="user-name-box" style="margin-top: 17px">	
 						<h2 class="username-title">Sandeep Singh</h2>
-						<p class="pr color-default edit">Working @ Edunuts
+						<p class="pr color-default edit editable">Working @ Edunuts
 							<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a>
 						</p>
-						<p class="pr color-default edit">edunuts.com/sandeep 
+						<p class=	"pr color-default edit editable">edunuts.com/sandeep 
 							<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a>
+
 						</p>
-						<button class="btn btn-newbe color-black fz-16 ">
-						<img class="newbe-img" src="img/btn-icon.png" alt="">Newbe</button>
+						<button class="btn btn-newbe color-black fz-16 open-sign-in">
+						<img class="newbe-img " src="img/btn-icon.png" alt="">Newbe</button>
 					</div>
 				</div>
 				<div class="col-md-6">
@@ -152,15 +153,16 @@
 </body>
 <script src="js/jquery.min.js"></script>
 <script src="js/profile.js"></script>
-<script src="js/jquery.editable.js"></script>
+<script src="js/aloha.min.js"></script>
 <script>
 
-	var option = {trigger : $(".edit-btn"), action : "click"};
-	$("#edit").editable(option, function(e){
- 
-});
 </script>
 <?php include "includes/signin-modal.php" ?>
 <?php include "includes/signup-modal.php" ?>
 <?php include "includes/forgot-modal.php" ?>
+<script>
+	
+		
+	
+</script>
 </html>

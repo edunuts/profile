@@ -1,7 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/modal-modify.css">
+</head>
+<body>
+<?php include "includes/simple-search-modify.php" ?>
 
-<span id="start" class="target"><!-- Hidden anchor to close all modals --></span>
-<span id="open-modal-1" class="target"><!-- Hidden anchor to open adjesting modal container--></span>
-<div class="modal">
+    <div class="center-modal">
   <div class="content vertical-align-middle">
     <h2 class="login-header">Let's hack education.</h2>
     <p class="login-content">Welcome to edunuts, Join us and make education better.</p><br>
@@ -24,9 +31,10 @@
         <a href="" class="g-color my-btn-g"><span class="google-img"></span>SIGN UP WITH GOOGLE</a>
       </div>
     </div>
-       <a class="close-btn" href="#start">X</a>
     
   </div>
 </div>
+    
 
-</script>
+</body>
+</html>

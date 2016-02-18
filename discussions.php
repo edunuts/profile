@@ -2,7 +2,7 @@
 <?php include "includes/header.php" ?>
 <link rel="stylesheet" href="public/css/discussions.css">
 <div class="container">	
-<?php 	include "includes/search-box.php" ?>
+<?php include "includes/search-box.php" ?>
 </div>
 	<hr style="margin: 0;padding:0; border-color: #ddd;">	
 
@@ -147,6 +147,8 @@
 				<!-- clone-from-here -->
 				</div>
 			<div class="col-md-3 border-left">
+					<button id="slide-down" class="full-width-btn btn btn-blue "><span class="fa fa-pencil"></span> Write Answer</button>
+				
 				<button class="btn tag-btn">B. Tech</button>
 				<button class="btn tag-btn">B. Tech</button>
 				<button class="btn tag-btn">B. Tech</button>
@@ -155,6 +157,42 @@
 			</div><!-- col-md-9 -->
 		</div>
 	</div><!-- container -->
+	<div class="ck-editor-box ck-popup-box">
+		<div class="ck-header">
+			<div class="col-md-1">
+				<img class="ck-img" src="img/Messy-curly-hairstyles-men.jpg" alt="">
+			</div>
+			<div class="col-md-10">
+				<h4 class="ck-title">Sandeep Singh</h4>
+				<h5>Add Bio . Go</h5>
+			</div>
+			<div class="col-md-1">
+				<span class="fa expand fa-expand" id="slide-Up"></span>
+			</div>
+		</div>
+		<div class="ck-nav clearfix">
+			<ul class="float-left ">
+				<li><span class="fa fa-bold"></span>&nbsp;</li>
+				<li><span class="fa fa-italic"></span>&nbsp;</li>
+				<li><span class="fa fa-strikethrough"></span></li>
+			</ul>
+	
+			<ul class="pull-right ck-right">
+				<li><span class="fa fa-link">&nbsp;</span></li>
+				<!-- <li><span class="fa fa-search">&nbsp;</span></li> -->
+			</ul>
+		</div>
+		<textarea class="ck-text-area" placeholder="Write Your text here"></textarea>
+		<div class="ck-footer">
+			<div class="float-left">
+				<button class="btn bg-blue">Submit</button>
+				<button class="btn">Save Draft</button>
+			</div>
+			<div class="pull-right">
+			
+			</div>
+		</div>
+	</div><!-- ck-popup -->
 </body>
 <script src="js/jquery.min.js"></script>
 <script src="js/profile.js"></script>
@@ -164,8 +202,18 @@
 	});
 $('#full-ck').click(function() {
 	$(this).addClass('full-screen-ck');
-})
+});
 
+ $('#slide-down').click(function() {
+	$('.ck-popup-box').animate({
+		top: '100px',
+	})
+});
 
+ $('#slide-Up').click(function() {
+	$('.ck-popup-box').animate({
+		top: '-400px',
+	})
+});
 </script>
 </html>

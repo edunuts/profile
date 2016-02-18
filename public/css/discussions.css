@@ -20,6 +20,7 @@
 	background: #337ab7;
 	color: #fff !important;
 	margin-bottom: 20px;
+
 }
 .btn-blue:hover {
 	background: #368EDA;
@@ -203,3 +204,16 @@ margin: 0;
 .full-screen-ck textarea {
 	height: 400px;
 }
+.full-width-btn {
+	width: 100%;
+}
+.ck-popup-box {
+	display: block;
+	position: absolute;
+	top: -500px;
+	z-index: 1000;
+	width: 600px;
+	left: 26%;
+	background: #fff;
+}
+ 

@@ -1,10 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300);
-.page-container > * {
-  width: 940px;
-  padding: 20px;
-  margin: 0 auto;
-  color: white;
-}
 
 /* Modal window sample styles */
 /* Vertical centering trick http://css-tricks.com/centering-in-the-unknown/ */
@@ -16,16 +10,7 @@
   margin: 0;
 }
 
-.target {
-  display: block;
-  left: 0;
-  position: fixed;
-  top: 0;
-  width: 0;
-  height: 0;
-  visibility: hidden;
-  pointer-events: none;
- }
+
 
 .modal {
   position: fixed;
@@ -35,34 +20,27 @@
   bottom: 0;
   z-index: 100;
   text-align: center;
-  display: none;
+  display: block;
   /* Fallback for legacy browsers */
 }
-.modal > .content {
-   text-align: left;
+ .content {
    display: inline-block;
   /*background: rgba(255, 255, 255, 0.99);*/
   background: #fff;
    box-sizing: border-box;
-   position: relative;
    width: 634px;
    padding: 20px;
-   top: -90px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+  /*box-shadow: 0 5px 20px rgba(0,0,0,0.3);*/
+  border: 1px solid #ddd;
   border-radius: 5px;
+ }
+ .center-modal {
+   width: 634px;
+  margin: 70px auto;
 
  }
 
- .modal > .content .close-btn {
-    position: absolute;
-    top: 13px;
-    right: 13px;
-    width: 15px;
-    height: 15px;
-    color: #333;
-    font-size: 16px;
-    text-decoration: none;
- }
+ 
 
 
  /* Behaviour on legacy browsers */
@@ -85,26 +63,8 @@
   -webkit-filter: blur(5px);
  
 }
-:root span[id="start"]:target ~ .page-container {
- filter: none;
- -webkit-filter: none;
-}
 
 /* Behavior on modern browsers */
-:root .modal {
-  display: block;
-  background-color: transparent;
-  /*transition: transform 0.3s cubic-bezier(0.5, -0.5, 0.5, 1.5);*/
-  /*transition: transform 0.2s cubic-bezier(0.88, 0.33, 0.76, 0.9);*/
-  transition: transform 0.2s cubic-bezier(0.7, 0.68, 0.7, 0.65);
-  transform-origin: center center;
-  transform: scale(0, 0);
-}
-:root .modal > .content {
-}
-:root .target:target + .modal {
-  transform: scale(1, 1);
-}
 
 /*modal inner settigns*/
 .my-col-6 {
