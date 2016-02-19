@@ -90,7 +90,14 @@
 						<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a>
 					</p>
 				</div>
-				
+					<div class="details-input-field-box">
+						<form action="" class="">
+							<input type="text " class="details-input" placeholder="Title Here">
+							<input type="text " class="details-input cpname" placeholder="Company Name Here">
+							<input type="text " class="details-input duration" placeholder="Duration">
+						</form>
+						<textarea class="details-input details-textarea" ></textarea>
+					</div>	
 				<hr>
 			</div>
 			<!-- this is box -->

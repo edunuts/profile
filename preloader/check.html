@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+#nav,#nav ul {
+
+    list-style: none outside none;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+#nav {
+
+    background: url('menu_bg.png') no-repeat scroll 0 0 transparent;
+
+    clear: both;
+    font-size: 12px;
+
+    height: 58px;
+
+    padding: 0 0 0 9px;
+
+    position: relative;
+
+    width: 957px;
+
+}
+
+#nav ul {
+
+    background-color: #222;
+
+    border:1px solid #222;
+
+    border-radius: 0 5px 5px 5px;
+
+    border-width: 0 1px 1px;
+
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+
+    left: -9999px;
+
+    overflow: hidden;
+
+    position: absolute;
+
+    top: -9999px;
+
+    z-index: 2;
+
+ 
+
+    -moz-transform: scaleY(0);
+
+    -ms-transform: scaleY(0);
+
+    -o-transform: scaleY(0);
+
+    -webkit-transform: scaleY(0);
+
+    transform: scaleY(0);
+
+ 
+
+    -moz-transform-origin: 0 0;
+
+    -ms-transform-origin: 0 0;
+
+    -o-transform-origin: 0 0;
+
+    -webkit-transform-origin: 0 0;
+
+    transform-origin: 0 0;
+
+ 
+
+    -moz-transition: -moz-transform 0.1s linear;
+
+    -ms-transition: -ms-transform 0.1s linear;
+
+    -o-transition: -o-transform 0.1s linear;
+
+    -webkit-transition: -webkit-transform 0.1s linear;
+
+    transition: transform 0.1s linear;
+
+}
+
+#nav li {
+
+    background: url('menu_line.png') no-repeat scroll right 5px transparent;
+
+    float: left;
+
+    position: relative;
+
+}
+
+#nav li a {
+
+    color: #FFFFFF;
+
+    display: block;
+053
+    float: left;
+054
+    font-weight: normal;
+055
+    height: 30px;
+056
+    padding: 23px 20px 0;
+057
+    position: relative;
+058
+    text-decoration: none;
+059
+    text-shadow: 1px 1px 1px #000000;
+060
+}
+061
+#nav li:hover > a {
+062
+    color: #00B4FF;
+063
+}
+064
+#nav li:hover, #nav a:focus, #nav a:hover, #nav a:active {
+065
+    background: none repeat scroll 0 0 #121212;
+066
+    outline: 0 none;
+067
+}
+068
+#nav li:hover ul.subs {
+069
+    left: 0;
+070
+    top: 53px;
+071
+    width: 180px;
+072
+ 
+073
+    -moz-transform: scaleY(1);
+074
+    -ms-transform: scaleY(1);
+075
+    -o-transform: scaleY(1);
+076
+    -webkit-transform: scaleY(1);
+077
+    transform: scaleY(1);
+078
+}
+079
+#nav ul li {
+080
+    background: none;
+081
+    width: 100%;
+082
+}
+083
+#nav ul li a {
+084
+    float: none;
+085
+}
+086
+#nav ul li:hover > a {
+087
+    background-color: #121212;
+088
+    color: #00B4FF;
+089
+}
+090
+#lavalamp {
+091
+    background: url('lavalamp.png') no-repeat scroll 0 0 transparent;
+092
+    height: 16px;
+093
+    left: 13px;
+094
+    position: absolute;
+095
+    top: 0px;
+096
+    width: 64px;
+097
+ 
+098
+    -moz-transition: all 300ms ease;
+099
+    -ms-transition: all 300ms ease;
+100
+    -o-transition: all 300ms ease;
+101
+    -webkit-transition: all 300ms ease;
+102
+    transition: all 300ms ease;
+103
+}
+104
+#lavalamp:hover {
+105
+    -moz-transition-duration: 3000s;
+106
+    -ms-transition-duration: 3000s;
+107
+    -o-transition-duration: 3000s;
+108
+    -webkit-transition-duration: 3000s;
+109
+    transition-duration: 3000s;
+110
+}
+111
+#nav li:nth-of-type(1):hover ~ #lavalamp {
+112
+    left: 13px;
+113
+}
+114
+#nav li:nth-of-type(2):hover ~ #lavalamp {
+115
+    left: 90px;
+116
+}
+117
+#nav li:nth-of-type(3):hover ~ #lavalamp {
+118
+    left: 170px;
+119
+}
+120
+#nav li:nth-of-type(4):hover ~ #lavalamp {
+121
+    left: 250px;
+122
+}
+123
+#nav li:nth-of-type(5):hover ~ #lavalamp {
+124
+    left: 330px;
+125
+}
+126
+#nav li:nth-of-type(6):hover ~ #lavalamp {
+127
+    left: 410px;
+128
+}
+129
+#nav li:nth-of-type(7):hover ~ #lavalamp {
+130
+    left: 490px;
+131
+}
+132
+#nav li:nth-of-type(8):hover ~ #lavalamp {
+133
+    left: 565px;
+134
+}
+
+	</style>
+</head>
+<body>
+<ul id="nav">
+
+  <li><a href="https://www.script-tutorials.com/">Home</a></li>
+
+  <li><a class="hsubs" href="#">Menu 1</a>
+
+      <ul class="subs">
+
+          <li><a href="#">Submenu 1</a></li>
+
+          <li><a href="#">Submenu 2</a></li>
+
+          <li><a href="#">Submenu 3</a></li>
+
+          <li><a href="#">Submenu 4</a></li>
+
+          <li><a href="#">Submenu 5</a></li>
+
+      </ul>
+
+  </li>
+
+  <li><a class="hsubs" href="#">Menu 2</a>
+
+      <ul class="subs">
+
+          <li><a href="#">Submenu 2-1</a></li>
+
+          <li><a href="#">Submenu 2-2</a></li>
+
+          <li><a href="#">Submenu 2-3</a></li>
+
+          <li><a href="#">Submenu 2-4</a></li>
+
+          <li><a href="#">Submenu 2-5</a></li>
+
+          <li><a href="#">Submenu 2-6</a></li>
+
+          <li><a href="#">Submenu 2-7</a></li>
+
+          <li><a href="#">Submenu 2-8</a></li>
+
+      </ul>
+
+  </li>
+
+  <li><a class="hsubs" href="#">Menu 3</a>
+
+      <ul class="subs">
+
+          <li><a href="#">Submenu 3-1</a></li>
+
+          <li><a href="#">Submenu 3-2</a></li>
+
+          <li><a href="#">Submenu 3-3</a></li>
+
+          <li><a href="#">Submenu 3-4</a></li>
+
+          <li><a href="#">Submenu 3-5</a></li>
+
+      </ul>
+
+  </li>
+
+  <li><a href="#">Menu 4</a></li>
+
+  <li><a href="#">Menu 5</a></li>
+
+  <li><a href="#">Menu 6</a></li>
+
+  <li><a href="https://www.script-tutorials.com/pure-css3-lavalamp-menu/">Back</a></li>
+
+  <div id="lavalamp"></div>
+
+</ul>
+
+</body>
+</html>
