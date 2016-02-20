@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300);
+.rating-text-area .r-text-area {
+	width: 100%;
+	height: 200px;
+	border-radius: 10px;
+	padding: 10px 15px;
+	border: none;
+	border: 1px solid #ccc;
+}
+.r-input-r, .r-input-l {
+	border: none;
+	border: 1px solid #ccc;
+	height: 35px;
+	border-radius: 5px;
+	margin-top: 5px;
+	padding: 0px 10px;
+}
+.r-input-l {
+	width: 59%;
+	float: left;
+	margin-right: 1%;
+}
+ .r-input-r {
+	width: 40%;
+	float: left;
+}
+.myrating-btn-box .mrb-l {
+	float: left;
+	font-size: 17px;
+	margin-top: 10px;
+	color: #F50E0E;
+	cursor: pointer;
+}
+
+.myrating-btn-box .mrb-r {
+	float: right;
+	background: #05C24F;
+	border-radius: 5px;
+	padding: 6px 10px;
+	font-size: 16px;
+}
+
+.front-textarea {
+	width: 100%;
+	height: 150px;
+	border-radius: 10px;
+	padding: 10px 15px;
+}
+.por {
+	position: relative;
+}
+.comment-details {
+	/*position: absolute;*/
+	top: 12px;
+	height: 200px;
+}
+.review-content {
+	color: #696565 !important;
+	font-size: 14.3px;
+}
+.min-hight {
+	min-height: 400px;
+}
+.new-review-box .start-rating-content {
+	display: none;
+}
+
+.new-review-box .extended-review {
+	display: none;
+}
+
