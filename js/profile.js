@@ -35,3 +35,9 @@ $(function() {
 		overlay.remove();
 	})
 })
+
+$('.skill-icon').click(function() {
+
+	$('.tagsinput-done-box').slideUp();
+	$('.tagsinput-box').slideToggle();
+})

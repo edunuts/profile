@@ -67,28 +67,34 @@
 			</div>
 			<!-- this is box re-->
 			<div class="col-md-9 items" id="overview">
+			<div class="for-hover-box">
 				<p class="fz-16 color-default edit">Studied at Kirorimal College
 					<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a>
 				</p>
+			</div>
 				<p class="fz-16 color-default edit">Currently lives in New Delhi, India
 					<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a>
 				</p>
-				<p class="fz-16 color-default edit"><b>Skills</b> <a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a></p>
+				<p class="fz-16 color-default edit"><b>Skills</b> <a href="#" class="hover-edit skill-icon"><i class="fa fa-pencil"></i></a></p>
 				
 				<!-- <h1>hello &#9998;</h1> -->
 				<hr class="mt-none">
-				<div class="btn-box">
+				<div class="btn-box tagsinput-done-box">
 					<button class="btn color-green">PHP & MySQL</button>
 					<button class="btn color-green">MongoDB</button>
 					<button class="btn color-green">Laravel</button>
 					<button class="btn color-green">Slim Framework</button>
 				</div>
+					<div class="tagsinput-box">
+					<input type="text" value="PHP & MySQL,MongoDB,Laravel,Slim Framework" data-role="tagsinput"> 
+					<button- class="btn tagsinput-save-btn">Save</button>
+					</div>
 				<br>	
 
 				<h4 class="exp ">Experience</h4>
 				<hr class="mt-none">
 				<h4 class="username-title edit">Software Engineer @ Guru iNfoways Pvt Ltd. ( 2 Yrs )
-					<small><a href="" class="hover-edit"><i class="fa fa-pencil"></i></a></small>
+					<small><a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a></small>
 				</h4>
 				<div class="">
 					<p class="color-default edit">
@@ -111,7 +117,7 @@
 								
 							<div class="myrating-btn-box">
 								<p id="cancel-it" class="mrb-l">Cancel</p>
-								<p class="mrb-r"><a href="#">Save </a></p>
+								<p class="mrb-r"><a href="#" style="color: #fff">Save </a></p>
 							</div><br><br>
 						</div>
 						</div><!-- dp none box --> 
