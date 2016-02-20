@@ -2,6 +2,11 @@
 <?php include "includes/header.php" ?>
 
 	<?php include "includes/simple-search.php" ?>
+	<link rel="stylesheet" href="css/experience-profile.css">
+	<link rel="stylesheet" href="css/bootstrap-tagsinput.css">
+	<link rel="stylesheet" href="css/ng-tags-input.min.css">
+	<link rel="stylesheet" href="css/ng-tags-input.bootstrap.min.css">
+
 	<div class="container">
 		<ul class="breadcrumbs">
 		 	<li><a href="#">Home</a><i class="fa fa-angle-right"></i></li>
@@ -79,6 +84,7 @@
 					<button class="btn color-green">Slim Framework</button>
 				</div>
 				<br>	
+
 				<h4 class="exp ">Experience</h4>
 				<hr class="mt-none">
 				<h4 class="username-title edit">Software Engineer @ Guru iNfoways Pvt Ltd. ( 2 Yrs )
@@ -90,15 +96,27 @@
 						<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a>
 					</p>
 				</div>
-					<div class="details-input-field-box">
-						<form action="" class="">
-							<input type="text " class="details-input" placeholder="Title Here">
-							<input type="text " class="details-input cpname" placeholder="Company Name Here">
-							<input type="text " class="details-input duration" placeholder="Duration">
-						</form>
-						<textarea class="details-input details-textarea" ></textarea>
-					</div>	
-				<hr>
+				<div class="replace-box-expand">
+					<div class="col-5 por new-review-box">
+						<div class="comment-details">
+							<div class="start-rating-content">
+								<input type="text" class="details-input" placeholder="Title here">
+								<input class="r-input-l" type="text" placeholder="Company Name">
+								<input class="r-input-r" type="text" placeholder="duration">
+							</div>
+						<div class="rating-text-area">
+							<textarea  style="margin-top: 6px" class="r-text-area" placeholder="Write here all details "></textarea>
+						</div>
+						<div class="extended-review">
+								
+							<div class="myrating-btn-box">
+								<p id="cancel-it" class="mrb-l">Cancel</p>
+								<p class="mrb-r"><a href="#">Save </a></p>
+							</div><br><br>
+						</div>
+						</div><!-- dp none box --> 
+					</div>
+			</div>
 			</div>
 			<!-- this is box -->
 
@@ -161,6 +179,9 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/profile.js"></script>
 <script src="js/aloha.min.js"></script>
+<script src="js/bootstrap-tagsinput-angular.js"></script>
+<script src="js/bootstrap-tagsinput.js"></script>
+<script src="js/ng-tags-input.min.js"></script>
 <script>
 
 </script>
@@ -169,7 +190,17 @@
 <?php include "includes/forgot-modal.php" ?>
 <script>
 	
-		
+		$('.review-input').focus(function(e) {
+			$(this).hide();
+			$('.comment-details').slideDown(300);
+		});
+
+		$('.r-text-area').click(function(e) {
+			$('.start-rating-content, .extended-review').slideDown();
+		})
+		$('#cancel-it').click(function(e) {
+			$('.start-rating-content, .extended-review').slideUp();
+		})
 	
 </script>
 </html>

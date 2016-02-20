@@ -770,31 +770,32 @@ a:hover {
 
 }
 /*details-input-field-box start form here*/
-.details-input-field-box {
-  /*height: 206px;*/
+.details-input-field-box{
   width: 400px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  background: #f7f7f7;
+  position: relative;
+
 }
 .details-input {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
-  margin-left: 5%;
   height: 35px;
   margin-top: 8px;
-  border-radius: 5px;
   border: none;
   border: 1px solid #ddd;
   padding: 10px;
+  border-radius: 5px;
 }
 
 .cpname {
   width: 54%;
 }
+
 .duration {
-  width: 30%;
+  width: 45%;
+
 }
-.details-textarea {
-  height: 100px;
+
+.replace-box-expand {
+   width: 400px;
+   height: 300px;
 }
