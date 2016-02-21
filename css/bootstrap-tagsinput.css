@@ -3,12 +3,12 @@
   border: 1px solid #ccc;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   display: inline-block;
-  padding: 4px 6px;
+  padding: 3px 6px;
   color: #555;
   vertical-align: middle;
   border-radius: 4px;
   max-width: 100%;
-  line-height: 22px;
+  line-height: 32px;
   cursor: text;
 }
 .bootstrap-tagsinput input {
@@ -43,7 +43,7 @@
   background: #b8e986;
   font-size: 15px;
   font-family: Roboto;
-  font-weight: 200;
+  font-weight: 300;
 }
 .bootstrap-tagsinput .tag [data-role="remove"] {
   margin-left: 8px;
