@@ -4,11 +4,12 @@
 	<?php include "includes/simple-search.php" ?>
 	<link rel="stylesheet" href="css/experience-profile.css">
 	<link rel="stylesheet" href="css/bootstrap-tagsinput.css">
-	<link rel="stylesheet" href="css/ng-tags-input.min.css">
-	<link rel="stylesheet" href="css/ng-tags-input.bootstrap.min.css">
+	
 	<link rel="stylesheet" href="css/bootstrap-editable.css">
 	<?php 
-	$engineer = 'Software Engineer @ Guru iNfoways Pvt Ltd. ( 2 Yrs )';
+	$title = 'Software Engineer';
+	 $company = 'Guru iNfoways Pvt Ltd. ( 2 Yrs )';
+	$recruitment = 'Recruitment Services: Have helped companies across domains ranging from BFSI, manufacturing, ad agencies, education, healthcare, diversiﬁed groups to real estate developers. We help companies to recruit across functional areas and seniority levels.';
 	 ?>
 	
 <style>
@@ -74,35 +75,73 @@
 			</div>
 			<!-- this is box re-->
 			<div class="col-md-9 items" id="overview">
-			<div class="for-hover-box">
-				<p class="fz-16 color-default edit editable-content">Studied at Kirorimal College<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a></p>
+			<div class="suggestions-box">
+				<div class="for-hover-box">
+					<p class="fz-16 color-default edit editable-content" data-inputclass="sugg-slide">Studied at Kirorimal College<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a></p>
+				</div>
+				<ul class="suggestions">
+	         	    <li><a href="#">10 Flat Designs that can chan...</a></li>
+	         	    <li><a href="#">Download Flat design search...</a></li>
+	         	    <li><a href="#">How Flat Design can make y...</a></li>
+	         	    <li><a href="#">Why Flat Design is future tre...</a></li>
+	         	</ul>
 			</div>
+				
 				<p class="fz-16 color-default edit editable-content">Currently lives in New Delhi, India<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a>
 				</p>
 				<p class="fz-16 color-default edit"><b>Skills</b> <a href="javascript:void(0)" class="hover-edit skill-icon"><i class="fa fa-pencil"></i></a></p>
 				
 				<hr class="mt-none">
 				<div class="btn-box tagsinput-done-box">
-					<button class="btn color-green">PHP & MySQL</button>
-					<button class="btn color-green">MongoDB</button>
-					<button class="btn color-green">Laravel</button>
-					<button class="btn color-green">Slim Framework</button>
-				</div>
+					<div href="#" class="overlay-btn">PHP & MySQL
+						<span class="overlay">
+							<i class="fa fa-trash icon-trash"></i> &nbsp;
+							<i class="fa fa-pencil icon-pencil"></i>
+						</span>
+					</div>
+					<div href="#" class="overlay-btn">MongoDB
+						<span class="overlay">
+							<i class="fa fa-trash click"></i> &nbsp;
+							<i class="fa fa-pencil"></i>
+						</span>
+					</div>
+					<div href="#" class="overlay-btn">Laravel
+						<span class="overlay">
+							<i class="fa fa-trash click"></i> &nbsp;
+							<i class="fa fa-pencil"></i>
+						</span>
+					</div>
+					<div href="#" class="overlay-btn">Slim Framework
+						<span class="overlay">
+							<i class="fa fa-trash click"></i> &nbsp;
+							<i class="fa fa-pencil"></i>
+						</span>
+					</div>
+				</div><!-- btn-box -->
+				
+
 					<div class="tagsinput-box">
 					<input type="text" value="PHP & MySQL,MongoDB,Laravel,Slim Framework" data-role="tagsinput"> 
-					<button- class="btn tagsinput-save-btn">Save</button>
+					<button class="btn btn-primary"><i class="fa fa-check"></i></button>
+					<button class="btn btn-danger"><i class="fa fa-times"></i></button>
 					</div>
 				<br>	
 
 				<h4 class="exp ">Experience</h4>
 				<hr class="mt-none">
-				<h4 class="username-title edit editable-content" data-inputclass="input input-xl"><?=$engineer ?><small><a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a></small>
-				</h4>
+				<!-- suggesion -->
+				         <div class="suggestions-box">
+							 <h4 class="username-title edit" data-inputclass="input input-xl sn-clicked"><span class="editable-content"><?=$title?></span>@<span class="editable-content"><?= $company ?></span><small><a href="#" class="hover-edit softwear-icon"><i class="fa fa-pencil"></i></a></small>
+							 </h4>
+				         	
+				         </div>
+				<!-- suggesion -->
 				<div class="for-edit-p-box">
-					<p class="color-default edit editable-content for-edit-p" data-type="textarea">Recruitment Services: Have helped companies across domains ranging from BFSI, manufacturing, ad agencies, education, healthcare, diversiﬁed groups to real estate developers. We help companies to recruit across functional areas and seniority levels. &nbsp;
-					<a href="javascript:avoid();" class="hover-edit for-absolute check"><i class="fa fa-pencil"></i></a>
+					<p class="color-default edit editable-content for-edit-p" data-type="textarea" data-inputclass="textarea-xl"><?= $recruitment ?>
+					<a href="javascript:avoid();" class="hover-edit for-absolute"><i class="fa fa-pencil"></i></a>
 					</p>
 				</div>
+				<div class="for-company-details-box">
 				<div class="replace-box-expand">
 					<div class="col-5 por new-review-box">
 						<div class="comment-details">
@@ -123,7 +162,9 @@
 						</div>
 						</div><!-- dp none box --> 
 					</div>
-			</div>
+			    </div>
+					
+				</div>
 			</div>
 			<!-- this is box -->
 
@@ -185,11 +226,8 @@
 </body>
 <script src="js/jquery.min.js"></script>
 <script src="js/profile.js"></script>
-<script src="js/aloha.min.js"></script>
 <script src="js/bootstrap-tagsinput-angular.js"></script>
 <script src="js/bootstrap-tagsinput.js"></script>
-<script src="js/ng-tags-input.min.js"></script>
-<!-- <script src="js/bootstrap-editable.min.js"></script> -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
 <?php include "includes/signin-modal.php" ?>
 <?php include "includes/signup-modal.php" ?>
@@ -209,13 +247,21 @@
 		});
 
 	$.fn.editable.defaults.mode = 'inline';
+    $('.editable-content').editable();
+
 	$(document).ready(function() {
-    $(function(){
-    $('.editable-content').editable({
-        url: '/post',
-        title: 'Enter comments',
-    });
-});
+
+	$(document).on('click', '.sugg-slide', function() {
+		$('.suggestions').slideToggle();
+	});	
+	
+	$('.icon-trash').click(function () {
+		alert('trash icon');
+	})
+$('.icon-pencil').click(function () {
+		alert('pencil icon');
+	})
+
 });
 </script>
 </html>

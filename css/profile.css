@@ -754,8 +754,16 @@ a:hover {
 .hover-edit {
     position: absolute;
      color: #5B5B5B;
-     margin-left: 20px;
+    margin-left: 20px;
      -webkit-transition: all .3s;
+}
+.for-absolute {
+   top: 0;
+     right: 0;
+}
+.softwear-icon {
+  top: 0;
+  right: 240px;
 }
 .hover-edit:hover {
   color: #05C24F;
@@ -763,81 +771,113 @@ a:hover {
   padding-left: 5px;
 
 }
+.input-xl {
+  width: 400px !important;
+
+}
+.textarea-xl {
+  width: 500px !important;
+}
 
 .editable-content:hover .hover-edit{
 color: #05C24F;
   font-size: 18px;
   padding-left: 5px;
 }
-/*details-input-field-box start form here*/
-.details-input-field-box{
-  width: 400px;
-  position: relative;
-
-}
-.details-input {
-  width: 100%;
-  margin: 0 auto;
-  height: 35px;
-  margin-top: 8px;
-  border: none;
-  border: 1px solid #ddd;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.cpname {
-  width: 54%;
-}
-
-.duration {
-  width: 45%;
-
-}
-
-.replace-box-expand {
-   width: 400px;
-   height: 300px;
-}
 .tagsinput-box {
   display: none;
 }
-.tagsinput-save-btn {
-  padding: 9px 17px;
-  background: #05C24F;
-  color: #fff;
+.for-edit-p-box {
+  position: relative;
 }
 .editable-cancel {
-  background: #E60000;
-  color: #fff;
-  padding: 5px 10px;
-}
-.editable-cancel:hover {
-   background: #FF0000;
+  background: #D9534F!important;
   color: #fff;
 }
-.editable-submit {
-  padding: 5px 10px;
+.for-company-details-box {
+  width: 500px;
+}
+.details-input {
+  width: 100%;
+  border: 1px solid #ccc;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 0px 10px;
+}
+/*details-input-field-box start form here*/
+.suggestions-box {
+  position: relative;
 
 }
-.editable-submit:hover {
-  color: #fff;
+.suggestions {
+  list-style: none;
+  position: absolute;
+  padding: 0;
+  width: 399px;
+  background: #FDFDFD;
+  z-index: 100;
+  top: 44px;
+  left: 0;
+  box-shadow: 0px 2px 7px rgba(0,0,0,0.25);
+  display: none;
 }
-.for-edit-p {
-  text-align: left;
+.suggestions:: {
+  content: "";
+  border: 12px solid;
+  border-bottom-color: #F4F4F4;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  position: absolute;
+  top: -24px;
+  left: 10px;
+
 }
-.editable-input textarea {
- width: 551px !important;
+.suggestions li {
+  font-size: 17px;
+  padding: 5px 10px;
 }
-.input-xl {
-  width: 400px !important;
+.suggestions li:hover {
+  background: #E8E8E8;
+
 }
-.for-edit-p-box  {
+.suggestions li a {
+  color: #333 !important;
+
+}
+/*button flip star from hare ---------------*/
+.overlay-btn {
+  padding: 8px 15px;
+  background: #b8e986;;
+  display: inline;
   position: relative;
-  width: 90%;
+  color: #333;
+  border-radius: 4px;
+  margin-right: 7px;
 }
-.for-absolute {
+.overlay {
+   height: 100%;
+  width: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: block;
   position: absolute;
   top: 0;
-  right: -10px;
+  left: 0;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  overflow: hidden;
+  color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 3;
 }
+.overlay-btn:hover .overlay{
+  width: 100%;
+}
+.overlay > .fa {
+  margin-left: 4px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
