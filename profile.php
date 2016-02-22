@@ -31,8 +31,8 @@
 					</div>
 					<div class="user-name-box" style="margin-top: 17px">	
 						<h2 class="username-title">Sandeep Singh</h2>
-						<p class="pr color-default edit editable editable-content">Working @ Edunuts
-							<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a>
+						<p class="pr color-default ">Working @ <span class="edit editable editable-content">Edunuts<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a></span>
+							
 						</p>
 						<p class=	"pr color-default edit editable editable-content">edunuts.com/sandeep 
 							<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a>
@@ -85,8 +85,7 @@
 	         	    <li><a href="#">How Flat Design can make y...</a></li>
 	         	    <li><a href="#">Why Flat Design is future tre...</a></li>
 	         	</ul>
-			</div>
-				
+			</div>	
 				<p class="fz-16 color-default edit editable-content">Currently lives in New Delhi, India<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a>
 				</p>
 				<p class="fz-16 color-default edit"><b>Skills</b> <a href="javascript:void(0)" class="hover-edit skill-icon"><i class="fa fa-pencil"></i></a></p>
@@ -112,6 +111,48 @@
 						</span>
 					</div>
 					<div href="#" class="overlay-btn">Slim Framework
+						<span class="overlay">
+							<i class="fa fa-trash click"></i> &nbsp;
+							<i class="fa fa-pencil"></i>
+						</span>
+					</div>
+					<div href="#" class="overlay-btn">Slim Framework
+						<span class="overlay">
+							<i class="fa fa-trash click"></i> &nbsp;
+							<i class="fa fa-pencil"></i>
+						</span>
+					</div>
+					<div href="#" class="overlay-btn">Slim Framework
+						<span class="overlay">
+							<i class="fa fa-trash click"></i> &nbsp;
+							<i class="fa fa-pencil"></i>
+						</span>
+					</div>
+					<div href="#" class="overlay-btn">Framework
+						<span class="overlay">
+							<i class="fa fa-trash click"></i> &nbsp;
+							<i class="fa fa-pencil"></i>
+						</span>
+					</div>
+					<div href="#" class="overlay-btn">Framework
+						<span class="overlay">
+							<i class="fa fa-trash click"></i> &nbsp;
+							<i class="fa fa-pencil"></i>
+						</span>
+					</div>
+					<div href="#" class="overlay-btn">Framework
+						<span class="overlay">
+							<i class="fa fa-trash click"></i> &nbsp;
+							<i class="fa fa-pencil"></i>
+						</span>
+					</div>
+					<div href="#" class="overlay-btn">Framework
+						<span class="overlay">
+							<i class="fa fa-trash click"></i> &nbsp;
+							<i class="fa fa-pencil"></i>
+						</span>
+					</div>
+					<div href="#" class="overlay-btn">Framework
 						<span class="overlay">
 							<i class="fa fa-trash click"></i> &nbsp;
 							<i class="fa fa-pencil"></i>
