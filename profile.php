@@ -26,8 +26,11 @@
 		<div class="row ">	
 			<div class="col-md-12 pull-down-15">
 				<div class="col-md-6">	
-					<div class="img-box">	
+					<div class="img-box">
+					<input type="file" name="pic" accept="image/*">	
 						<img src="img/Messy-curly-hairstyles-men.jpg" alt="">	
+						<a href="javascript:void(0);" class="upload-profile-pic"><i class="fa fa-camera"></i> <span>Upload Photo</span></a>
+					<button class="trash"><i class="fa fa-trash-o"></i></button>
 					</div>
 					<div class="user-name-box" style="margin-top: 17px">	
 						<h2 class="username-title">Sandeep Singh</h2>
@@ -38,8 +41,8 @@
 							<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a>
 
 						</p>
-						<button class="btn btn-newbe color-black fz-16 open-sign-in">
-						<img class="newbe-img " src="img/btn-icon.png" alt="">Newbe</button>
+						<button class="profile-btn-c open-sign-in">
+						<i class="fa fa-user"></i>&nbsp; Newbe</button>
 					</div>
 				</div>
 				<div class="col-md-6">
@@ -77,14 +80,18 @@
 			<div class="col-md-9 items" id="overview">
 			<div class="suggestions-box">
 				<div class="for-hover-box">
-					<p class="fz-16 color-default edit editable-content" data-inputclass="sugg-slide">Studied at Kirorimal College<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a></p>
-				</div>
-				<ul class="suggestions">
-	         	    <li><a href="#">10 Flat Designs that can chan...</a></li>
-	         	    <li><a href="#">Download Flat design search...</a></li>
-	         	    <li><a href="#">How Flat Design can make y...</a></li>
-	         	    <li><a href="#">Why Flat Design is future tre...</a></li>
-	         	</ul>
+					<div class="suggesation-line-div fz-16 color-default">Studied at 
+					<span class="drop-suggesations edit editable-content" data-inputclass="sugg-slide">Kirorimal College  <a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a>
+				
+					<ul class="suggestions">
+		         	    <li><a href="#">10 Flat Designs that can chan...</a></li>
+		         	    <li><a href="#">Download Flat design search...</a></li>
+		         	    <li><a href="#">How Flat Design can make y...</a></li>
+		         	    <li><a href="#">Why Flat Design is future tre...</a></li>
+		         	</ul>
+		         	</span>
+		         	</div>
+	         	</div>
 			</div>	
 				<p class="fz-16 color-default edit editable-content">Currently lives in New Delhi, India<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a>
 				</p>
@@ -92,72 +99,17 @@
 				
 				<hr class="mt-none">
 				<div class="btn-box tagsinput-done-box">
-					<div href="#" class="overlay-btn">PHP & MySQL
-						<span class="overlay">
-							<i class="fa fa-trash icon-trash"></i> &nbsp;
-							<i class="fa fa-pencil icon-pencil"></i>
-						</span>
-					</div>
-					<div href="#" class="overlay-btn">MongoDB
-						<span class="overlay">
-							<i class="fa fa-trash click"></i> &nbsp;
-							<i class="fa fa-pencil"></i>
-						</span>
-					</div>
-					<div href="#" class="overlay-btn">Laravel
-						<span class="overlay">
-							<i class="fa fa-trash click"></i> &nbsp;
-							<i class="fa fa-pencil"></i>
-						</span>
-					</div>
-					<div href="#" class="overlay-btn">Slim Framework
-						<span class="overlay">
-							<i class="fa fa-trash click"></i> &nbsp;
-							<i class="fa fa-pencil"></i>
-						</span>
-					</div>
-					<div href="#" class="overlay-btn">Slim Framework
-						<span class="overlay">
-							<i class="fa fa-trash click"></i> &nbsp;
-							<i class="fa fa-pencil"></i>
-						</span>
-					</div>
-					<div href="#" class="overlay-btn">Slim Framework
-						<span class="overlay">
-							<i class="fa fa-trash click"></i> &nbsp;
-							<i class="fa fa-pencil"></i>
-						</span>
-					</div>
-					<div href="#" class="overlay-btn">Framework
-						<span class="overlay">
-							<i class="fa fa-trash click"></i> &nbsp;
-							<i class="fa fa-pencil"></i>
-						</span>
-					</div>
-					<div href="#" class="overlay-btn">Framework
-						<span class="overlay">
-							<i class="fa fa-trash click"></i> &nbsp;
-							<i class="fa fa-pencil"></i>
-						</span>
-					</div>
-					<div href="#" class="overlay-btn">Framework
-						<span class="overlay">
-							<i class="fa fa-trash click"></i> &nbsp;
-							<i class="fa fa-pencil"></i>
-						</span>
-					</div>
-					<div href="#" class="overlay-btn">Framework
-						<span class="overlay">
-							<i class="fa fa-trash click"></i> &nbsp;
-							<i class="fa fa-pencil"></i>
-						</span>
-					</div>
-					<div href="#" class="overlay-btn">Framework
-						<span class="overlay">
-							<i class="fa fa-trash click"></i> &nbsp;
-							<i class="fa fa-pencil"></i>
-						</span>
-					</div>
+					<div href="#" class="overlay-btn">PHP & MySQL <i class="fa fa-times"></i></div>
+					<div href="#" class="overlay-btn">MongoDB <i class="fa fa-times"></i></div>
+					<div href="#" class="overlay-btn">Laravel <i class="fa fa-times"></i></div>
+					<div href="#" class="overlay-btn">Slim Framework <i class="fa fa-times"></i></div>
+					<div href="#" class="overlay-btn">Slim Framework <i class="fa fa-times"></i></div>
+					<div href="#" class="overlay-btn">Slim Framework <i class="fa fa-times"></i></div>
+					<div href="#" class="overlay-btn">Framework Hello <i class="fa fa-times"></i></div>
+					<div href="#" class="overlay-btn">Framework <i class="fa fa-times"></i></div>
+					<div href="#" class="overlay-btn">Framework <i class="fa fa-times"></i></div>
+					<div href="#" class="overlay-btn">Framework <i class="fa fa-times"></i></div>
+					<div href="#" class="overlay-btn">Framework <i class="fa fa-times"></i></div>
 				</div><!-- btn-box -->
 				
 
@@ -172,7 +124,8 @@
 				<hr class="mt-none">
 				<!-- suggesion -->
 				         <div class="suggestions-box">
-							 <h4 class="username-title edit" data-inputclass="input input-xl sn-clicked"><span class="editable-content"><?=$title?></span>@<span class="editable-content"><?= $company ?></span><small><a href="#" class="hover-edit softwear-icon"><i class="fa fa-pencil"></i></a></small>
+							 <h4 class="username-title edit" data-inputclass="input input-xl sn-clicked">
+							 	<span class="editable-content"><?=$title?></span>@<span class="editable-content"><?= $company ?> <a href="#" class="hover-edit softwear-icon"><i class="fa fa-pencil"></i></a></span>
 							 </h4>
 				         	
 				         </div>
@@ -304,5 +257,28 @@ $('.icon-pencil').click(function () {
 	})
 
 });
+var activeKey = -1;
+$(document).keydown(function(e) {
+	var totalEl = $('.suggestions').find('li'),
+		len = totalEl.length;
+	var keyCode = e.keyCode;
+	
+	if(keyCode == 40) {
+		activeKey++;
+	} else if(keyCode == 38) {
+		activeKey--;
+	}
+
+	if(activeKey >= len ) {
+		activeKey = 0;
+	} else if(activeKey < 0) {
+		activeKey = (len-1);
+	}
+
+	totalEl.eq(activeKey).addClass('active').siblings('li').removeClass('active');
+
+
+});
+
 </script>
 </html>
