@@ -4,6 +4,7 @@
 	<?php include "includes/simple-search.php" ?>
 	<link rel="stylesheet" href="css/experience-profile.css">
 	<link rel="stylesheet" href="css/bootstrap-tagsinput.css">
+	<link rel="stylesheet" href="css/profile.css">
 	
 	<link rel="stylesheet" href="css/bootstrap-editable.css">
 	<?php 
@@ -120,7 +121,7 @@
 					</div>
 				<br>	
 
-				<h4 class="exp ">Experience</h4>
+				<h4 class="exp">Experience <a href="#open-modal-exp"><i class="fa fa-plus-square-o"></i></a></h4>
 				<hr class="mt-none">
 				<!-- suggesion -->
 				         <div class="suggestions-box">
@@ -226,6 +227,7 @@
 <?php include "includes/signin-modal.php" ?>
 <?php include "includes/signup-modal.php" ?>
 <?php include "includes/forgot-modal.php" ?>
+<?php include "includes/add_exp_model.php" ?>
 <script>
 	
 		$('.review-input').focus(function(e) {

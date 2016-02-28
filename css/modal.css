@@ -46,8 +46,8 @@
    box-sizing: border-box;
    position: relative;
    width: 634px;
-   padding: 20px;
-   top: -90px;
+   padding: 50px 20px 20px 20px;
+   top: -140px;
   box-shadow: 0 5px 20px rgba(0,0,0,0.3);
   border-radius: 5px;
 
@@ -55,11 +55,11 @@
 
  .modal > .content .close-btn {
     position: absolute;
-    top: 13px;
+    top: 10px;
     right: 13px;
     width: 15px;
     height: 15px;
-    color: #333;
+    color: #FFF;
     font-size: 16px;
     text-decoration: none;
  }
@@ -134,11 +134,11 @@
   outline: none;
   background: none;
   border: none;
-  border: 1px solid #aaa;
-  padding-left: 10px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
 }
 .myinput:focus {
-  border: 1px solid #716D6D;
+  border-bottom: 1px solid #666;
 }
 
 .br {
@@ -157,15 +157,19 @@
 .google-img {
   background-image: url(../img/social-google.png);
   left: 6px;
-  top: 1px
+  top: 1px;
+    height: 30px;
+  width: 30px;
+  margin: 3px; display: inline-block;
 }
 .facebook-img {
   background-image: url(../img/social-facebook.png);
-  height: 35px;
-  width: 35px;
+  height: 25px;
+  width: 25px;
+  margin: 3px; display: inline-block;
 }
 .my-btn-g {
-  padding: 11px 47px;
+  padding: 8px 47px;
   color: #fff !important;
  background: #E02F2F;
   display: inline-block;
@@ -182,42 +186,29 @@
   color: #fff !important;
    background: #3B5998;
   display: inline-block;
-  border-radius: 3px;
   position: relative;
- padding: 11px 38px;
+ padding: 8px 38px; border-radius: 3px;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
-.small-btn {
-   padding: 10px 15px;
-  color: #fff !important;
-  outline: none;
-  border: none;
-  display: inline-block;
-  background: #333;
-  border-radius: 3px;
-}
-.small-btn:hover {
-background: #222; 
-}
+.small-btn { background: #444; color: #FFF; border: none; padding: 5px 20px; margin-top: 10px; }
+.small-btn:hover{ box-shadow: 3px 5px 7px #999; }
 
 .login-header {
-font-size: 34px;
-text-align: center;
-letter-spacing: 1px;
+  position: absolute; top: 0; left: 0; color: #FFF; background: #444; width: 100%; height: 40px; line-height: 40px; padding-left: 20px; margin: 0;
+font-size: 16px;
 font-family: Roboto;
 font-weight: 300;
 
 }
 .login-content {
-text-align: center;
-font-family: Raleway;
-font-size: 15px;
-letter-spacing: 1px;
+font-size: 14px;
+/*letter-spacing: 1px;*/
 }
 .text-right {
   text-align: right;
+  display: inline-block;
 }
 .big-f {
   font-size: 30px;
@@ -228,7 +219,7 @@ letter-spacing: 1px;
    top: 123px;
    position: absolute;
 }*/
-.btn-box .facebook-img {
+/*.btn-box .facebook-img {
   top: 2px;
   right: 0;
   position: absolute;
@@ -236,7 +227,7 @@ letter-spacing: 1px;
 .btn-box .my-btn-g {
       padding: 11px 46px;
       position: relative;
-}
+}*/
 
 .fz-18 {
   font-size: 17px;
