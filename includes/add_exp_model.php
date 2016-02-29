@@ -9,7 +9,7 @@
             <form>
         <input type="text" placeholder="Title Here">
         <input type="text" class="half" placeholder="Company Name">
-        <input type="text" class="half-right" placeholder="Duration">
+        <input type="date" class="half-right" placeholder="Duration">
         <textarea type="text" rows="5" cols="3" placeholder="Write Comments"></textarea>
 
         <button class="unique">Save</button>

@@ -81,16 +81,12 @@
 			<div class="col-md-9 items" id="overview">
 			<div class="suggestions-box">
 				<div class="for-hover-box">
-					<div class="suggesation-line-div fz-16 color-default">Studied at 
-					<span class="drop-suggesations edit editable-content" data-inputclass="sugg-slide">Kirorimal College  <a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a>
-				
-					<ul class="suggestions">
-		         	    <li><a href="#">10 Flat Designs that can chan...</a></li>
-		         	    <li><a href="#">Download Flat design search...</a></li>
-		         	    <li><a href="#">How Flat Design can make y...</a></li>
-		         	    <li><a href="#">Why Flat Design is future tre...</a></li>
-		         	</ul>
-		         	</span>
+					<div class="suggesation-line-div fz-16 color-default">Studied at
+					<div style="display:inline-block">
+						<span class="drop-suggesations edit editable-content" data-inputclass="sugg-slide">Kirorimal College  <a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a>
+						</span>
+						
+		         	</div>
 		         	</div>
 	         	</div>
 			</div>	
@@ -223,6 +219,7 @@
 <script src="js/profile.js"></script>
 <script src="js/bootstrap-tagsinput-angular.js"></script>
 <script src="js/bootstrap-tagsinput.js"></script>
+
 <script src="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
 <?php include "includes/signin-modal.php" ?>
 <?php include "includes/signup-modal.php" ?>
@@ -248,7 +245,9 @@
 	$(document).ready(function() {
 
 	$(document).on('click', '.sugg-slide', function() {
-		$('.suggestions').slideToggle();
+		$('.editable-input').append('<ul class="suggestions">\
+			         	    <li><a href="#">10 Flat Designs that can chan...</a></li>\
+			         	   </ul>');
 	});	
 	
 	$('.icon-trash').click(function () {
