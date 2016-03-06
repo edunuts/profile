@@ -62,7 +62,7 @@
 											<span class="fa expand fa-expand" onclick="fullscreen()"></span>
 										</div>
 									</div>
-									<div class="ck-nav clearfix">
+									<div class="ck-nav clearfix height-zero">
 										<!-- <ul class="float-left ">
 											<li><span class="fa fa-bold"></span>&nbsp;</li>
 											<li><span class="fa fa-italic"></span>&nbsp;</li>
@@ -145,6 +145,7 @@
 						</div><!-- col-md-10 -->
 					</div>
 				<!-- clone-from-here -->
+				
 				</div>
 			<div class="col-md-3 border-left">
 					<button id="slide-down" class="full-width-btn btn btn-blue "><span class="fa fa-pencil"></span> Write Answer</button>
