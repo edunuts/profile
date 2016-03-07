@@ -62,19 +62,19 @@
 											<span class="fa expand fa-expand" onclick="fullscreen()"></span>
 										</div>
 									</div>
-									<div class="ck-nav clearfix">
-										<ul class="float-left ">
+									<div class="ck-nav clearfix height-zero">
+										<!-- <ul class="float-left ">
 											<li><span class="fa fa-bold"></span>&nbsp;</li>
 											<li><span class="fa fa-italic"></span>&nbsp;</li>
 											<li><span class="fa fa-strikethrough"></span></li>
 										</ul>
-								
+																		
 										<ul class="pull-right ck-right">
 											<li><span class="fa fa-link">&nbsp;</span></li>
-											<!-- <li><span class="fa fa-search">&nbsp;</span></li> -->
-										</ul>
+											<li><span class="fa fa-search">&nbsp;</span></li>
+										</ul> -->
 									</div>
-									<textarea class="ck-text-area" placeholder="Write Your text here"></textarea>
+									<textarea class="ck-text-area" id="ckeditor1" placeholder="Write Your text here"></textarea>
 									<div class="ck-footer">
 										<div class="float-left">
 											<button class="btn bg-blue">Submit</button>
@@ -145,6 +145,7 @@
 						</div><!-- col-md-10 -->
 					</div>
 				<!-- clone-from-here -->
+				
 				</div>
 			<div class="col-md-3 border-left">
 					<button id="slide-down" class="full-width-btn btn btn-blue "><span class="fa fa-pencil"></span> Write Answer</button>
@@ -196,6 +197,7 @@
 </body>
 <script src="js/jquery.min.js"></script>
 <script src="js/profile.js"></script>
+<script src="ckeditor/ckeditor.js"></script>
 <script>
 	$('.ck-open').click(function() {
 		$(this).parents('.ask-q-box').find('.ck-editor-box').slideToggle();
@@ -215,5 +217,6 @@ $('#full-ck').click(function() {
 		top: '-400px',
 	})
 });
+ CKEDITOR.replace('ckeditor1');
 </script>
 </html>

@@ -4,6 +4,7 @@
 	<?php include "includes/simple-search.php" ?>
 	<link rel="stylesheet" href="css/experience-profile.css">
 	<link rel="stylesheet" href="css/bootstrap-tagsinput.css">
+	<link rel="stylesheet" href="css/profile.css">
 	
 	<link rel="stylesheet" href="css/bootstrap-editable.css">
 	<?php 
@@ -20,26 +21,18 @@
 		 	<li><a href="#">Home</a><i class="fa fa-angle-right"></i></li>
 		 	<li><a href="#">Users</a><i class="fa fa-angle-right"></i> </li>
 		 	<li><a href="#">Sandeep Singh </a></li>
-		 	<li><a href="#forgot-modal">forgot-modal </a></li>
 		</ul>
 	</div>
 	<div class="container bordered">
 		<div class="row ">	
 			<div class="col-md-12 pull-down-15">
-				<div class="col-md-6">
-
-					<div class="img-box">	
-						<img src="img/Messy-curly-hairstyles-men.jpg" alt="">
-						<div class="img-overlay">
-							<i class="fa fa-pencil overlay-icon" type="button" id="my-button" value="Select Files"></i>
-							<i class="fa fa-trash icon-overlay-trash"></i>
-						<input type="file" name="my_file" id="my-file">
-						</div>	
+				<div class="col-md-6">	
+					<div class="img-box">
+					<input type="file" name="pic" accept="image/*">	
+						<img src="img/Messy-curly-hairstyles-men.jpg" alt="">	
+						<a href="javascript:void(0);" class="upload-profile-pic"><i class="fa fa-camera"></i> <span>Upload Photo</span></a>
+					<button class="trash"><i class="fa fa-trash-o"></i></button>
 					</div>
-						
-
-						<!-- there wiill be deom  -->
-
 					<div class="user-name-box" style="margin-top: 17px">	
 						<h2 class="username-title">Sandeep Singh</h2>
 						<p class="pr color-default ">Working @ <span class="edit editable editable-content">Edunuts<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a></span>
@@ -49,8 +42,8 @@
 							<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a>
 
 						</p>
-						<button class="btn btn-newbe color-black fz-16 open-sign-in">
-						<img class="newbe-img " src="img/btn-icon.png" alt="">Newbe</button>
+						<button class="profile-btn-c open-sign-in">
+						<i class="fa fa-user"></i>&nbsp; Newbe</button>
 					</div>
 				</div>
 				<div class="col-md-6">
@@ -88,87 +81,32 @@
 			<div class="col-md-9 items" id="overview">
 			<div class="suggestions-box">
 				<div class="for-hover-box">
-					<p class="fz-16 color-default edit editable-content" data-inputclass="sugg-slide">Studied at Kirorimal College<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a></p>
-				</div>
-				<ul class="suggestions">
-	         	    <li><a href="#">10 Flat Designs that can chan...</a></li>
-	         	    <li><a href="#">Download Flat design search...</a></li>
-	         	    <li><a href="#">How Flat Design can make y...</a></li>
-	         	    <li><a href="#">Why Flat Design is future tre...</a></li>
-	         	</ul>
-			</div>
+					<div class="suggesation-line-div fz-16 color-default">Studied at
+					<div style="display:inline-block">
+						<span class="drop-suggesations edit editable-content" data-inputclass="sugg-slide">Kirorimal College  <a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a>
+						</span>
+						
+		         	</div>
+		         	</div>
+	         	</div>
+			</div>	
 				<p class="fz-16 color-default edit editable-content">Currently lives in New Delhi, India<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a>
 				</p>
 				<p class="fz-16 color-default edit"><b>Skills</b> <a href="javascript:void(0)" class="hover-edit skill-icon"><i class="fa fa-pencil"></i></a></p>
 				
 				<hr class="mt-none">
 				<div class="btn-box tagsinput-done-box">
-					<div href="#" class="overlay-btn">PHP & MySQL
-						<span class="overlay">
-							<i class="fa fa-trash icon-trash"></i> &nbsp;
-							<i class="fa fa-pencil icon-pencil"></i>
-						</span>
-					</div>
-					<div href="#" class="overlay-btn">MongoDB
-						<span class="overlay">
-							<i class="fa fa-trash click"></i> &nbsp;
-							<i class="fa fa-pencil"></i>
-						</span>
-					</div>
-					<div href="#" class="overlay-btn">Laravel
-						<span class="overlay">
-							<i class="fa fa-trash click"></i> &nbsp;
-							<i class="fa fa-pencil"></i>
-						</span>
-					</div>
-					<div href="#" class="overlay-btn">Slim Framework
-						<span class="overlay">
-							<i class="fa fa-trash click"></i> &nbsp;
-							<i class="fa fa-pencil"></i>
-						</span>
-					</div>
-					<div href="#" class="overlay-btn">Slim Framework
-						<span class="overlay">
-							<i class="fa fa-trash click"></i> &nbsp;
-							<i class="fa fa-pencil"></i>
-						</span>
-					</div>
-					<div href="#" class="overlay-btn">Slim Framework
-						<span class="overlay">
-							<i class="fa fa-trash click"></i> &nbsp;
-							<i class="fa fa-pencil"></i>
-						</span>
-					</div>
-					<div href="#" class="overlay-btn">Framework
-						<span class="overlay">
-							<i class="fa fa-trash click"></i> &nbsp;
-							<i class="fa fa-pencil"></i>
-						</span>
-					</div>
-					<div href="#" class="overlay-btn">Framework
-						<span class="overlay">
-							<i class="fa fa-trash click"></i> &nbsp;
-							<i class="fa fa-pencil"></i>
-						</span>
-					</div>
-					<div href="#" class="overlay-btn">Framework
-						<span class="overlay">
-							<i class="fa fa-trash click"></i> &nbsp;
-							<i class="fa fa-pencil"></i>
-						</span>
-					</div>
-					<div href="#" class="overlay-btn">Framework
-						<span class="overlay">
-							<i class="fa fa-trash click"></i> &nbsp;
-							<i class="fa fa-pencil"></i>
-						</span>
-					</div>
-					<div href="#" class="overlay-btn">Framework
-						<span class="overlay">
-							<i class="fa fa-trash click"></i> &nbsp;
-							<i class="fa fa-pencil"></i>
-						</span>
-					</div>
+					<div href="#" class="overlay-btn">PHP & MySQL <i class="fa fa-times"></i></div>
+					<div href="#" class="overlay-btn">MongoDB <i class="fa fa-times"></i></div>
+					<div href="#" class="overlay-btn">Laravel <i class="fa fa-times"></i></div>
+					<div href="#" class="overlay-btn">Slim Framework <i class="fa fa-times"></i></div>
+					<div href="#" class="overlay-btn">Slim Framework <i class="fa fa-times"></i></div>
+					<div href="#" class="overlay-btn">Slim Framework <i class="fa fa-times"></i></div>
+					<div href="#" class="overlay-btn">Framework Hello <i class="fa fa-times"></i></div>
+					<div href="#" class="overlay-btn">Framework <i class="fa fa-times"></i></div>
+					<div href="#" class="overlay-btn">Framework <i class="fa fa-times"></i></div>
+					<div href="#" class="overlay-btn">Framework <i class="fa fa-times"></i></div>
+					<div href="#" class="overlay-btn">Framework <i class="fa fa-times"></i></div>
 				</div><!-- btn-box -->
 				
 
@@ -179,11 +117,12 @@
 					</div>
 				<br>	
 
-				<h4 class="exp ">Experience</h4>
+				<h4 class="exp">Experience <a href="#open-modal-exp"><i class="fa fa-plus-square-o"></i></a></h4>
 				<hr class="mt-none">
 				<!-- suggesion -->
 				         <div class="suggestions-box">
-							 <h4 class="username-title edit" data-inputclass="input input-xl sn-clicked"><span class="editable-content"><?=$title?></span>@<span class="editable-content"><?= $company ?></span><small><a href="#" class="hover-edit softwear-icon"><i class="fa fa-pencil"></i></a></small>
+							 <h4 class="username-title edit" data-inputclass="input input-xl sn-clicked">
+							 	<span class="editable-content"><?=$title?></span>@<span class="editable-content"><?= $company ?> <a href="#" class="hover-edit softwear-icon"><i class="fa fa-pencil"></i></a></span>
 							 </h4>
 				         	
 				         </div>
@@ -280,10 +219,12 @@
 <script src="js/profile.js"></script>
 <script src="js/bootstrap-tagsinput-angular.js"></script>
 <script src="js/bootstrap-tagsinput.js"></script>
+
 <script src="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
 <?php include "includes/signin-modal.php" ?>
 <?php include "includes/signup-modal.php" ?>
 <?php include "includes/forgot-modal.php" ?>
+<?php include "includes/add_exp_model.php" ?>
 <script>
 	
 		$('.review-input').focus(function(e) {
@@ -304,17 +245,41 @@
 	$(document).ready(function() {
 
 	$(document).on('click', '.sugg-slide', function() {
-		$('.suggestions').slideToggle();
+		$('.editable-input').append('<ul class="suggestions">\
+			         	    <li><a href="#">10 Flat Designs that can chan...</a></li>\
+			         	   </ul>');
 	});	
 	
-	// tehre will be demo file ok 
+	$('.icon-trash').click(function () {
+		alert('trash icon');
+	})
+$('.icon-pencil').click(function () {
+		alert('pencil icon');
+	})
+
+});
+var activeKey = -1;
+$(document).keydown(function(e) {
+	var totalEl = $('.suggestions').find('li'),
+		len = totalEl.length;
+	var keyCode = e.keyCode;
+	
+	if(keyCode == 40) {
+		activeKey++;
+	} else if(keyCode == 38) {
+		activeKey--;
+	}
+
+	if(activeKey >= len ) {
+		activeKey = 0;
+	} else if(activeKey < 0) {
+		activeKey = (len-1);
+	}
+
+	totalEl.eq(activeKey).addClass('active').siblings('li').removeClass('active');
 
 
-	$('#my-button').click(function(){
-    $('#my-file').click();
 });
 
-
-});
 </script>
 </html>
