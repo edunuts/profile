@@ -849,14 +849,13 @@ color: #05C24F;
 }
 /*button flip star from hare ---------------*/
 .overlay-btn {
-  padding: 8px 15px;
-  background: #b8e986;;
-  display: inline;
-  position: relative;
-  color: #333;
-  border-radius: 4px;
-  margin-right: 7px;
-  line-height: 3;
+  padding: 5px 8px;
+    background: #b8e986;
+    display: inline-block;
+    position: relative;
+    color: #333;
+    border-radius: 4px;
+    margin: 3px;
 }
 .overlay {
    height: 100%;
@@ -881,4 +880,39 @@ color: #05C24F;
   font-size: 20px;
   cursor: pointer;
 }
+.img-box {
+  position: relative;
+}
+.img-overlay {
+  height: 150px;
+  width: 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.6);
+  -webkit-transition: background-color .5s ease;
+  transition: background-color .5s ease;
+  cursor: pointer;
+}
+.img-box:hover .img-overlay{
+  width: 150px;
+}
 
+
+.overlay-icon {
+  color: #fff;
+  text-align: center;
+  line-height: 8;
+  margin-left: 55px;
+  font-size: 18px;
+}
+.icon-overlay-trash {
+  font-size: 18px;
+  color: #fff;
+  margin-left: 10px;
+}
+/*img effect try from here*/
+
+#my-file { visibility: hidden; }

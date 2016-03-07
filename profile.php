@@ -20,15 +20,26 @@
 		 	<li><a href="#">Home</a><i class="fa fa-angle-right"></i></li>
 		 	<li><a href="#">Users</a><i class="fa fa-angle-right"></i> </li>
 		 	<li><a href="#">Sandeep Singh </a></li>
+		 	<li><a href="#forgot-modal">forgot-modal </a></li>
 		</ul>
 	</div>
 	<div class="container bordered">
 		<div class="row ">	
 			<div class="col-md-12 pull-down-15">
-				<div class="col-md-6">	
+				<div class="col-md-6">
+
 					<div class="img-box">	
-						<img src="img/Messy-curly-hairstyles-men.jpg" alt="">	
+						<img src="img/Messy-curly-hairstyles-men.jpg" alt="">
+						<div class="img-overlay">
+							<i class="fa fa-pencil overlay-icon" type="button" id="my-button" value="Select Files"></i>
+							<i class="fa fa-trash icon-overlay-trash"></i>
+						<input type="file" name="my_file" id="my-file">
+						</div>	
 					</div>
+						
+
+						<!-- there wiill be deom  -->
+
 					<div class="user-name-box" style="margin-top: 17px">	
 						<h2 class="username-title">Sandeep Singh</h2>
 						<p class="pr color-default ">Working @ <span class="edit editable editable-content">Edunuts<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a></span>
@@ -85,7 +96,7 @@
 	         	    <li><a href="#">How Flat Design can make y...</a></li>
 	         	    <li><a href="#">Why Flat Design is future tre...</a></li>
 	         	</ul>
-			</div>	
+			</div>
 				<p class="fz-16 color-default edit editable-content">Currently lives in New Delhi, India<a href="#" class="hover-edit"><i class="fa fa-pencil"></i></a>
 				</p>
 				<p class="fz-16 color-default edit"><b>Skills</b> <a href="javascript:void(0)" class="hover-edit skill-icon"><i class="fa fa-pencil"></i></a></p>
@@ -296,12 +307,13 @@
 		$('.suggestions').slideToggle();
 	});	
 	
-	$('.icon-trash').click(function () {
-		alert('trash icon');
-	})
-$('.icon-pencil').click(function () {
-		alert('pencil icon');
-	})
+	// tehre will be demo file ok 
+
+
+	$('#my-button').click(function(){
+    $('#my-file').click();
+});
+
 
 });
 </script>
